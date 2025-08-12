@@ -1,6 +1,6 @@
 - [Framsida (Villkor & Terms)](FRAMSIDA.md)
 - [Karaktärsskapande](karaktärsskapande.md)
-- [Bakgrundsbordet](bakgrundsbordet.md)
+- [Bakgrundstabellen](bakgrundstabellen.md)
 - [Read Me](README.md)
 - [How To](HowTo.md)
 - [Sample](Sample.md)
