@@ -14,7 +14,7 @@ Bakgrunder är allt din karaktär var innan du fick tag i dem. De ger dig färdi
 
 Rulla slumpmässigt för att bestämma din startbakgrund. Lägg märke till att de bara berör kanten av specificitet: det är upp till dig att skräddarsy dem till de världar du spelar i. Omarbeta dem eller ta bort dem helt och ersätt dem med din egen unika vision av sfärerna. Gör djärvt anspråk på spelen du spelar, skapa innehåll hänsynslöst och skriv alltid med penna.
 
-*(Gå till bakgrundstabellen)*
+[*(Gå till bakgrundstabellen)*](bakgrundstabellen.md)
 
 # *Skapa dina egna bakgrunder*
 
