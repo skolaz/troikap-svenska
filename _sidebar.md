@@ -8,10 +8,5 @@
 - [Fiender](fiender.md)
 - [Bästiarier](odjur.md)
 - [Tabeller](tabeller.md)
+- [Husregler](husregler.md)
 ---
-- [Changelog](Changelog.md)
-- [Read Me](README.md)
-- [How To](HowTo.md)
-- [Sample](Sample.md)
-
-
