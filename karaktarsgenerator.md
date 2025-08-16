@@ -17,15 +17,3 @@ Här kan du skapa din karaktär genom att slumpa fram dina initiala värden.
 
     <button onclick="slumpaKaraktar()">Skapa karaktär!</button>
 </div>
-
-<script>
-    function slumpaKaraktar() {
-        const skill = Math.floor(Math.random() * 10) + 1;
-        const stamina = Math.floor(Math.random() * 20) + 10;
-        const luck = Math.floor(Math.random() * 10) + 1;
-
-        document.getElementById("skill").value = skill;
-        document.getElementById("stamina").value = stamina;
-        document.getElementById("luck").value = luck;
-    }
-</script>
