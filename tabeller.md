@@ -19,9 +19,8 @@
 | Obeväpnad | 1 | 1 | 1 | 2 | 2 | 3 | 4 |
 | Sköld | 2 | 2 | 2 | 4 | 4 | 6 | 8 |
 
-'* indikerar ett vapen som kräver minst två händer att använda.
-
-'# indikerar ett vapen som ignorerar 1 skydd. 
+'* indikerar ett vapen som kräver minst två händer att använda. 
+'# indikerar ett vapen som ignorerar 1 skydd.   
 
 
 # Distansvapen
@@ -33,9 +32,8 @@
 | Armborst* | 4 | 4 | 6 | 8 | 8 | 8 | 10 |
 | Pistolet# | 2 | 2 | 4 | 4 | 6 | 12 | 16 |
 
-'* indikerar ett vapen som kräver minst två händer att använda.
-
-'# indikerar ett vapen som ignorerar 1 skydd. 
+'* indikerar ett vapen som kräver minst två händer att använda. 
+'# indikerar ett vapen som ignorerar 1 skydd.   
 
 # Odjurliga vapen
 
@@ -46,9 +44,8 @@
 | Stort odjur # | 4 | 6 | 8 | 10 | 12 | 14 | 16 |
 | Gigantisk odjur # | 4 | 8 | 12 | 12 | 16 | 18 | 24 |
 
-'* indikerar ett vapen som kräver minst två händer att använda.
-
-'# indikerar ett vapen som ignorerar 1 skydd. 
+'* indikerar ett vapen som kräver minst två händer att använda. 
+'# indikerar ett vapen som ignorerar 1 skydd.   
 
 # Slumpmässig trollformel, ska översättas
 
