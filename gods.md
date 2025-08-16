@@ -1,5 +1,5 @@
 # 13. Gods
-13.1 Om ett föremål inte är listat här, anta att det lägger till en bonus på +1 till tärningskastet som är associerade med det. Bryta upp lås, till exempel, skulle lägga till +1 till lås tärningskastet medan ett rep skulle lägga till +1 till klättra, och så vidare. 
+13.1 Om ett föremål inte är listat här, anta att det lägger till en bonus på +1 till tärningskastet som är associerade med det. Låsuppbrytare-kit, till exempel, skulle lägga till +1 till lås tärningskastet medan ett rep skulle lägga till +1 till klättra, och så vidare. 
 
 13.2 Artikelbonusar gäller endast om du är tränad i den skicklighet som de är avsedda att förbättra. Låsdyrkare kommer bara att ge sin bonus om du vet hur man använder verktyget (har redan 1+ i lås). 
 
@@ -19,11 +19,11 @@ Knuckle tärningar är gjorda av de kvicka, kronbladsformade knogbenen från tro
 
 En pistolet är ett handhållet energivapen. Håller tillräckligt med energi för 8 skott. 
 
-Plasmiska kärnor är kristalliserade stjärnljus gjutna i metall. Eller astrala ångor som fångas i glas. Eller kanske hårda spöken? Vad det än är så är det vackert och används som bränslekälla för exotiska vapen och hänsynslösa magiker. En plasmatisk kärna kan spräckas upp och huffas av en trollkarl istället för att spendera uthållighet på en trollformel. Men om ett Oops! tabell behövs, trollkarlen har då överdoserat och faller död, skummande om munnen. 
+Plasmiska kärnor är kristalliserade stjärnljus gjutna i metall. Eller astrala ångor som fångas i glas. Eller kanske hårda spöken? Vad det än är så är det vackert och används som bränslekälla för exotiska vapen och hänsynslösa magiker. En plasmatisk kärna kan spräckas upp och huffas av en trollkarl istället för att spendera STAMINA på en trollformel. Men om ett Oops! tabell behövs, trollkarlen har då överdoserat och faller död, skummande om munnen. 
 
 Fickbarometern är en del av en fashionabel tillställning för storstadstroikanen. Även om staden inte har något urskiljbart väder anses det vara artigt att kontrollera det med jämna mellanrum och kommentera den nuvarande nåden och hoppas på att den fortsätter i framtiden. Att undersöka dess kvartsansikte kommer att informera dig om framtida väder med 5 i 6 noggrannhet. 
 
-Fickgudar är små tygdockor gjorda i bilden av dina många gudar. Om du viskar en hemlighet till en och slänger den får du tillbaka 1 tur. 
+Fickgudar är små tygdockor gjorda i bilden av dina många gudar. Om du viskar en hemlighet till en och slänger den får du tillbaka 1 LUCK. 
 
 Ruby lorgnettes är hopfällbara glasögon gjorda med rubinglas som kräver fria händer att använda. När du bär dem är din syn nedsatt men du kan se trollkarls aktivitet tydligt (+2 Andra Sinnet).
 
