@@ -6,7 +6,10 @@
 - [Gods/Föremål](gods.md)
 - [Trollformler](trollformler.md)
 - [Fiender](fiender.md)
+---  
 - [Bästiarier](odjur.md)
 - [Tabeller](tabeller.md)
 - [Husregler](husregler.md)
----
+---  
+- [Karaktärsblad](http://candy-thistle.surge.sh/)
+- [Auto Roll Tables](https://autorolltables.github.io/)
