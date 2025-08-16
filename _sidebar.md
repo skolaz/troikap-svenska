@@ -2,7 +2,7 @@
 - [Karaktärsskapande](karaktärsskapande.md)
 - [Bakgrundstabellen](bakgrundstabellen.md)
 - [Regler 1-11](regler1-11.md)
-- [Avancerade färdighetsbeskrivningar](avanceradefärd.md)
+- [Avancerade SKILLS](avanceradeSKILL.md)
 - [Gods/Föremål](gods.md)
 - [Trollformler](trollformler.md)
 - [Fiender](fiender.md)
