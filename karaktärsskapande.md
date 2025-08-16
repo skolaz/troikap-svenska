@@ -4,9 +4,9 @@
 1. Rulla 1d3+3 för att bestämma SKILL.
 2. Rulla 2d6+12 för att bestämma STAMINA.
 3. Rulla 1d6+6 för att avgöra LUCK.
-4. Skriv ner varje föremål som varje ny karaktär börjar med:
-5. 2d6 Silvermynt, en kniv, en lykta och oljeflaska, en ryggsäck, 6 proviant.
-6. Rulla d66 på bakgrundsbordet och skriv ner ägodelar och färdigheter.
+4. Skriv ner varje föremål som varje ny karaktär börjar med:   
+2d6 Silvermynt, en kniv, en lykta och oljeflaska, en ryggsäck, 6 proviant.
+6. Rulla d66 på [bakgrundstabellen](bakgrundstabellen.md) och skriv ner ytterligare ägodelar och färdigheter.
 
 # Bakgrunder
 
