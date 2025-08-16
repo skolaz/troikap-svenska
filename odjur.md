@@ -1,61 +1,62 @@
 # Odjur
 
-# Alzabo
-
-| Färdighet 10 |
-| Uthållighet 21 |
-| Initiativ 4 |
-| Skydd 1 |
-| Skada som stort odjur |
-| Uppsyn |
-| 1 Hungrig |
-| 2 Förvirrad |
-| 3 Skyddande |
-| 4 Patient |
-| 5 Vaksam |
-| 6 Undvikande |
+| Alzabo |
+|---|
+| Färdighet 10 |    
+| Uthållighet 21 |  
+| Initiativ 4 | 
+| Skydd 1 | 
+| Skada som stort odjur |   
+| Mien/Humör |  
+| 1 Hungrig |   
+| 2 Förvirrad | 
+| 3 Skyddande | 
+| 4 Patient |   
+| 5 Vaksam |    
+| 6 Undvikande |    
 | Den röda pälsiga ghoul-björnen, som vid sin axel står hög som en häst, skulle vara en skrämmande varelse utan någon annan anledning än sitt omedelbara fysiska intryck. Alzabo kan producera - för den härmar inte riktigt, snarare påminner den om - det exakta ljudet av någon varelse den någonsin har ätit. Den gråter på natten och hämtar sitt byte från säkerhet, vanligtvis genom att imitera en nyligen uppäten familjemedlem och ropa till sina barn eller föräldrar. Även om det uppslukade är mänskligt, och de som lyssnar vet att det inte riktigt är dem, är ljudet av en dotter som du vet är död som knackar på din stugdörr och ber om att få komma in från kylan mer än de flesta kan uthärda. |
 
-# Boggart
-
-| Färdighet 6 |
-| Uthållighet 9 |
-| Initiativ 2 |
-| Skydd 0 |
-| Skada som vapen eller medelmåttigt odjur |
-| Uppsyn |
-| 1 krigförande |
-| 2 Envis |
-| 3 Petulant |
-| 4 Fräckt |
-| 5 Stygg |
-| 6 Självgod |
+| Boggart |
+|---|
+| Färdighet 6 |     
+| Uthållighet 9 |       
+| Initiativ 2 | 
+| Skydd 0 | 
+| Skada som vapen eller medelmåttigt odjur |    
+| Mien/Humör |  
+| 1 krigförande |   
+| 2 Envis | 
+| 3 Petulant |  
+| 4 Fräckt |    
+| 5 Stygg | 
+| 6 Självgod |  
 | Man skulle kunna bli förlåten för att tro att en boggart var en rank man med ett ytterst borstigt skägg, men nej, det var en gång i tiden som det sprang helt formad ur ett hål och har varit otacksam och illa förberedd på allt sedan dess. De reser sällan långt från sitt födelsehål även om det inte finns något tvång av nissen att göra det, det är mer en principiell punkt och brist på fantasi från deras sida. De kan, om de blir provocerade, vara våldsamma i försvaret av landet som de anser vara deras, men de är stolta, dumma och lättlurade. |
 
 # Bonshad
 
-| Färdighet 12 |
-| Uthållighet 20 |
-| Initiativ 3 |
-| Skydd 2 |
-| Skada som Gigantic Beast |
-| Uppsyn |
-| 1 Vredd |
-| 2 Virulent |
-| 3 Häftig |
-| 4 Illamående |
-| 5 Förvärv |
-| 6 Imperious |
+| Färdighet 12 |    
+| Uthållighet 20 |  
+| Initiativ 3 | 
+| Skydd 2 | 
+| Skada som Gigantic Beast |    
+| Mien/Humör |  
+| 1 Vredd | 
+| 2 Virulent |  
+| 3 Häftig |    
+| 4 Illamående |    
+| 5 Förvärv |   
+| 6 Imperious | 
 | Bonshaden är källan till en rolig bit av trivia bland diabolister. Även om det är välkänt att bonshaderna känner till metoden att skapa Shazmazms elixir är det mindre känt (åtminstone bland otåliga lärlingar) att The 17th Incantation of Ignis Baxter: Bring Up What Bonshad Come innehåller ett stavfel i den 5:e refrängen. Du kan föreställa dig vilken pinsamhet detta skulle ha orsakat mästare Baxter om han inte tragiskt fångats upp i oblationskrigen strax efter att ha avslutat sitt framstående arbete. Oavsett vilket, när man kallar fram denna kroknäbbade bettentakelerade djävul utan de reformerade texterna kommer man att dras iväg till botten av Demonhavet för att arbeta sina nyfikna gruvor. Vilken lärka! |
 
-# Cyklop
 
+| Cyklop |
+|---|
 | Färdighet 9 |
 | Uthållighet 14 |
 | Initiativ 3 |
 | Skydd 2 |
 | Skada som stort odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Tårande |
 | 2 Deprimerad |
 | 3 Melankolisk |
@@ -74,7 +75,7 @@
 | Initiativ 2 |
 | Skydd 1 |
 | Skada som stort odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 oberörd |
 | 2 Fristående |
 | 3 Lugnt |
@@ -92,7 +93,7 @@
 | Initiativ 3 |
 | Skydd 0 |
 | Skada som medelmåttigt odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Sällskaplig |
 | 2 Urbane |
 | 3 Upprymd |
@@ -108,7 +109,7 @@
 | Initiativ 2 |
 | Skydd 0 |
 | Skada som liten odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Glad |
 | 2 Kontemplativ |
 | 3 Hungrig |
@@ -124,7 +125,7 @@
 | Initiativ 8 |
 | Skydd 4 |
 | Skada som Gigantic Beast |
-| Uppsyn |
+| Mien/Humör |
 | 1 Sova |
 | 2 “Playful” |
 | 3 Hungrig |
@@ -157,7 +158,7 @@
 | Initiativ 3 |
 | Skydd 2 |
 | Skada som spjut |
-| Uppsyn |
+| Mien/Humör |
 | 1 Vilande |
 | 2 Stationär |
 | 3 Instabil |
@@ -175,7 +176,7 @@
 | Initiativ 2 |
 | Skydd 0 |
 | Skador som båge |
-| Uppsyn |
+| Mien/Humör |
 | 1 Fromma |
 | 2 Uppriktigt |
 | 3 Salig |
@@ -191,7 +192,7 @@
 | Initiativ 1 |
 | Skydd 1 |
 | Skador som vapen |
-| Uppsyn |
+| Mien/Humör |
 | 1 Nyfiken |
 | 2 Avvisande |
 | 3 Upptagen |
@@ -207,7 +208,7 @@
 | Initiativ 3 |
 | Skydd 0 |
 | Skada som liten odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Inveigling |
 | 2 Rädsla |
 | 3 Rädsla |
@@ -223,7 +224,7 @@
 | Initiativ 3 |
 | Skydd 0 |
 | Skada som medelmåttigt odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Häftig |
 | 2 Skadlig |
 | 3 Grymt |
@@ -241,7 +242,7 @@
 | Skydd 1 |
 | Initiativ 3 |
 | Skador som vapen |
-| Uppsyn |
+| Mien/Humör |
 | 1 strängt |
 | 2 Förvirrad |
 | 3 Extatisk |
@@ -257,7 +258,7 @@
 | Initiativ 2 |
 | Skydd 1 |
 | Skador som vapen |
-| Uppsyn |
+| Mien/Humör |
 | 1 Nyfiken |
 | 2 Försiktig |
 | 3 Berusad |
@@ -273,7 +274,7 @@
 | Initiativ 1 |
 | Skydd 0 |
 | Skada som vapen eller medelmåttigt odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Omedveten |
 | 2 Funderar |
 | 3 Distraherad |
@@ -291,7 +292,7 @@
 | Initiativ 2 |
 | Skydd 2 |
 | Skada som vapen eller medelmåttigt odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Svår |
 | 2 Fientlig |
 | 3 Misstänkt |
@@ -307,7 +308,7 @@
 | Initiativ 7 |
 | Skydd 3 |
 | Skada som Gigantic Beast |
-| Uppsyn |
+| Mien/Humör |
 | 1 Plågad |
 | 2 Vridning |
 | 3 Avundsjuk |
@@ -325,7 +326,7 @@
 | Initiativ 2 |
 | Skydd 1 |
 | Skada som lätt musköt eller medelmåttigt odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Uppmärksam |
 | 2 Observation |
 | 3 Vaksam |
@@ -341,7 +342,7 @@
 | Initiativ 5 |
 | Skydd 3 |
 | Skada som stort odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Lat |
 | 2 Uttråkad |
 | 3 Hungrig |
@@ -359,7 +360,7 @@
 | Skydd 3 |
 | Initiativ 3 |
 | Skada som stort odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Vilande |
 | 2 Sonderande |
 | 3 Flygig |
@@ -377,7 +378,7 @@
 | Initiativ 3 |
 | Skydd 1 |
 | Skada som vapen eller stort odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 självbelåten |
 | 2 Generös |
 | 3 Suverän |
@@ -393,7 +394,7 @@
 | Initiativ 2 |
 | Skydd 0 |
 | Skador som klubb |
-| Uppsyn |
+| Mien/Humör |
 | 1 Flitig |
 | 2 Förvirrad |
 | 3 Hemlängtan |
@@ -409,7 +410,7 @@
 | Skydd 0 |
 | Initiativ 1 |
 | Skada som liten odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Nyfiken |
 | 2 Vaksam |
 | 3 Aggressiv |
@@ -425,7 +426,7 @@
 | Initiativ 2 |
 | Skydd 1 |
 | Skador som vapen |
-| Uppsyn |
+| Mien/Humör |
 | 1 Beundra |
 | 2 Förälskad |
 | 3 Besatt |
@@ -443,7 +444,7 @@
 | Initiativ 2 |
 | Skydd 0 |
 | Skada som medelmåttigt odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Mewling |
 | 2 Barnslig |
 | 3 Playful |
@@ -461,7 +462,7 @@
 | Initiativ 2 |
 | Skydd 0 |
 | Skada som medelmåttigt odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Hemskt |
 | 2 Misstänkt |
 | 3 Overkligt |
@@ -477,7 +478,7 @@
 | Initiativ 3 |
 | Skydd 3 |
 | Skada som stort odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Kramper |
 | 2 Expandera |
 | 3 Indragning |
@@ -493,7 +494,7 @@
 | Initiativ 2 |
 | Skydd 0 |
 | Skada som Medium Beast |
-| Uppsyn |
+| Mien/Humör |
 | 1 Otroligt |
 | 2 Hagridden |
 | 3 Indragen |
@@ -511,7 +512,7 @@
 | Initiativ 2 |
 | Skydd 0 |
 | Skada som liten odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Blyg |
 | 2 Vänlig |
 | 3 Sympatisk |
@@ -529,7 +530,7 @@
 | Initiativ 2 |
 | Skydd 1 |
 | Skador som vapen |
-| Uppsyn |
+| Mien/Humör |
 | 1 Frånvarande |
 | 2 Distraherad |
 | 3 Entusiastisk |
@@ -545,7 +546,7 @@
 | Initiativ 2 |
 | Skydd 0 |
 | Skada som stort odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Playful |
 | 2 Stalking |
 | 3 Hungrig |
@@ -561,7 +562,7 @@
 | Initiativ 3 |
 | Skydd 0 |
 | Skador som vapen |
-| Uppsyn |
+| Mien/Humör |
 | 1 Offensiv |
 | 2 Förvirrad |
 | 3 Vänlig |
@@ -579,7 +580,7 @@
 | Initiativ 1 |
 | Skydd 2 |
 | Skador som vapen |
-| Uppsyn |
+| Mien/Humör |
 | 1 oförskämd |
 | 2 Standoffish |
 | 3 Häftig |
@@ -597,7 +598,7 @@
 | Initiativ 2 |
 | Skydd 2 |
 | Skada som supervapen |
-| Uppsyn |
+| Mien/Humör |
 | 1 Frustrerad |
 | 2 Rädd |
 | 3 Nyfiken |
@@ -613,7 +614,7 @@
 | Initiativ 2 |
 | Skydd 0 |
 | Skada som medelmåttigt odjur |
-| Uppsyn |
+| Mien/Humör |
 | 1 Playful |
 | 2 Stalking |
 | 3 Hungrig |
