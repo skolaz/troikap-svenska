@@ -8,6 +8,8 @@
 2d6 Silvermynt, en kniv, en lykta och oljeflaska, en ryggsäck, 6 proviant.
 6. Rulla d66 på [bakgrundstabellen](bakgrundstabellen.md) och skriv ner ytterligare ägodelar och färdigheter.
 
+[testa!](karaktarsgenerator.md)
+
 # Bakgrunder
 
 Bakgrunder är allt din karaktär var innan du fick tag i dem. De ger dig färdigheter, ägodelar och andra speciella förmåner där så anges. Glid in i rollen och gör den till din egen. 
