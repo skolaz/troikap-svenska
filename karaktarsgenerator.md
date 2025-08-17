@@ -17,7 +17,7 @@ Här kan du skapa din karaktär genom att slumpa fram dina initiala värden. Ta 
 - en kniv
 - en lykta och oljeflaska
 - en ryggsäck
-- 6 provianter
+- 6 provianter</textarea>
     <br><br>
     <button onclick="slumpaKaraktar()">Skapa karaktär!</button>
 </div>
