@@ -6,7 +6,7 @@ Varje jätte har en annan historia om Corda, väl berättad och avbruten av tår
 Ägodelar   
 En artefakt av förlorade Corda, antingen en enorm Blue Star-karta som kan berätta vart vilken portal som helst leder (med ett framgångsrikt astrologi test) eller en fickbarometer för att förutsäga vädret (5 i 6 noggrannhet) eller en Ruby Lorgnette som ger +2 Andra Sinnet.
 
-Avancerade färdigheter
+Avancerade SKILLS  
 4 Styrka   
 3 Astrologi   
 2 Spring   
@@ -19,7 +19,7 @@ Du är en klok man, en överstepräst, en dammpisser, en typisk men engagerad an
 Juterock, inbakade i stinkande lera och undervegetation. +1 till att smyga rullar i sumpig terräng medan du bär dem, -1 överallt annars eftersom det stinker!
 En stor, sliten träslev (skada som mörbulta).
 
-Avancerade färdigheter   
+Avancerade SKILLS   
 3 Trollformel – Drunkna   
 3 Simma   
 2 Trollformel – Tungvrickare   
@@ -39,7 +39,7 @@ Armborst och 18 bultar.
 Rulle med uppdyrkare till lås.   
 Gripkrok (grappling hook).   
 
-Avancerade färdigheter   
+Avancerade SKILLS   
 2 Smyga   
 2 Lås   
 1 Observant   
@@ -60,7 +60,7 @@ Lätt musköt.
 Svärd.   
 Slöja.   
 
-Avancerade färdigheter   
+Avancerade SKILLS   
 2 Lätt musköt-strid   
 2 Astrologi   
 2 Andra synen   
@@ -79,7 +79,7 @@ En enorm mörbulta.
 Sortiment av ovårdade rustningar (räknas som medel skydd).  
 Drömjournal, nästan full.  
 
-Avancerade färdigheter  
+Avancerade SKILLS  
 6 Språk – Kurgan  
 3 Mörbulta kamp  
 3 Hemliga tecken – Kaos sponsor  
@@ -98,7 +98,7 @@ Försedd med nycklar (räknas som medel skydd).
 En smakfull slägga (skada som mörbulta).  
 Verktyg för att bryta upp lås.  
 
-Avancerade färdigheter    
+Avancerade SKILLS    
 4 Lås  
 3 Styrka  
 3 Fällor  
@@ -117,7 +117,7 @@ Ett silversvärd.
 Påse med salt.  
 Flaska med demonblod.  
 
-Avancerade färdigheter  
+Avancerade SKILLS  
 5 Språk – Abyssal  
 3 Trollformel – Demon dimma  
 2 Andra synen  
@@ -133,7 +133,7 @@ Du är en kort, hårig, krigisk, alkoholberoende varelse. Dvärgar är ett skulp
 Murarhammare.  
 Rulle med konstnärsmaterial.  
 
-Avancerade färdigheter  
+Avancerade SKILLS  
 3 Observant  
 2 Skulptering  
 2 Målning  
@@ -155,7 +155,7 @@ Gul Epopt-outfit, vadderad för skydd mot olyckliga kunder (räknas som medel sk
 Epoptstav, är en gångstav med seende kristall i ena änden (skada som stav).  
 Hopfällbart tält, tillräckligt stort för ditt bås.  
 
-Avancerade färdigheter  
+Avancerade SKILLS  
 2 Observant  
 2 Utvärdera  
 1 Andra synen  
@@ -176,7 +176,7 @@ Fjäderspännd måttband
 Pistolet  
 1d6 Plasmatika kärnor  
   
-Avancerade färdigheter  
+Avancerade SKILLS  
 4 Exografi  
 3 Gyllenepråm Pilot  
 2 Astrologi  
@@ -191,7 +191,7 @@ Stor Astrolabium (skada som spikklubba).
 Kulram, även kallad abacus.  
 Massor av rullar och skrivutrustning.  
 
-Avancerade färdigheter  
+Avancerade SKILLS  
 3 Matematologi  
 2 Astrologi  
 2 Trollformel – Hitta  
@@ -205,7 +205,7 @@ Brun överrock och mjuk hatt som ofta lyfts från skrået.
 En balkrok (skada som kniv och +1 på rullar för att lyfta tunga föremål).  
 En längd rep.
 
-Avancerade färdigheter  
+Avancerade SKILLS  
 4 Styrka  
 2 Knytnävar  
 2 Spring  
@@ -224,7 +224,7 @@ En säck.
 1d6 Tomma Gremlinburkar.  
 En burk med en förbannad Gremlin inuti.  
 
-Avancerade färdigheter  
+Avancerade SKILLS  
 4 Tunnelstrider  
 4 Fällor  
 2 Smyga  
@@ -243,7 +243,7 @@ Böjt svärd.
 3 injektionsflaskor med gift.  
 Armborst och 6 bultar.
 
-Avancerade färdigheter  
+Avancerade SKILLS  
 1 Gift  
 1 Smyga  
 1 Lås  
@@ -263,7 +263,7 @@ Bandolier som innehåller 18 plasmika kärnor.
 Storsvärd.  
 Färgglada kläder med massor av tofsar och klockor (omöjligt att smyga). Även om den ser oseriöst ut är den i själva verket byggd med Autarchens gudomliga alkemi och anses vara medel skydd samtidigt som den väger samma som vanliga kläder (tar ingen plats bland dina ägodelar).  
 
-Avancerade färdigheter  
+Avancerade SKILLS  
 2 Storsvärdskamp  
 2 Pistolkamp  
 1 Spring  
@@ -278,7 +278,7 @@ Fint vapen du väljer.
 Krona.  
 Trött häst.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 3 Etikett  
 3 Vapnet du väljer  
 3 Rida  
@@ -291,7 +291,7 @@ Förtärarna vet att det bara finns två världar: Utanför och Innanför. De ha
 Vass metalltandställning (skada som svärd) eller gaffelformade metalltandställning (skada som kniv). På ett Mighty Blow kan du rengöra allt kött från en liten lem) eller trubbig metalltandställning (skada som kniv). Kan användas för att äta hårda föremål).  
 Broderad servett.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 3 Etikett  
 1 Styrka  
 1 Spårning  
@@ -311,7 +311,7 @@ Slaktarkniv.
 1d6 Små apor som inte lyssnar på kommandon men är för rädda och hungriga för att resa långt ifrån dig.  
 En ficka full med apagodis.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 4 Klättra  
 2 Fällor  
 1 Klubbkamp  
@@ -336,7 +336,7 @@ lärande, utlämnade åt sig själva på utkanten av samhället, förmedlar kuns
 Dammiga kläder.  
 Skallen av din mästare eller zombietjänare eller spöke som du har utvecklat en medberoende relation med.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 2 Helande  
 2 Bårhusvetenskap  
 2 Relationsrådgivning  
@@ -354,7 +354,7 @@ Flaskor med pigment och pulver.
 Samling av borstar.  
 Svärdkäpp.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 2 Trollformel – Skydd mot regn  
 2 Trollformel – Nonchalant slag  
 2 Trollformel – Släcka  
@@ -375,7 +375,7 @@ Dvärgar är kända för att vara de bästa hantverkarna av de miljoner sfärern
 Skogshuggar yxa.  
 Tom kagge.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 3 Knytnävar  
 3 Observant  
 2 Styrka  
@@ -398,7 +398,7 @@ Svärd.
 Sköld.  
 Ett donquijotiskt förpliktelse.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 3 Tornera med häst och lans  
 2 Svärdskamp  
 2 Spjut-kamp  
@@ -413,7 +413,7 @@ Röda dräkter.
 Traditionell ansiktslös metallhjälm av din Order (medel skydd).  
 Symbolisk (men fullstor och fullt funktionell) enhövdad storyxa, för att hjälpa till att slå ner dörren till en syndare (skada som storsvärd).  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 2 Trollformel – Eldlåga  
 2 Trollformel – Eldbult  
 2 Trollformel – Blixt  
@@ -432,7 +432,7 @@ Liten, värdelös hjälm.
 Tärning av knogbrosk.  
 Halvfull kagge av Rhino-öl (värda 20 proviant).  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 3 Spjut-kamp  
 2 Spring  
 2 Styrka  
@@ -448,7 +448,7 @@ Klor (skada som svärd).
 Hovar (skada som klubba).  
 Vingar — kan flyga lika snabbt som en springande man på marken.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 3 Flyga  
 3 Trollformel – Slumpmässigt  
 3 Trollformel – Slumpmässigt  
@@ -463,7 +463,7 @@ Du är student vid Trojkans mest prestigefyllda trollkarlsakademi (stadens stolt
 Liten funktionell dörr som bärs på din panna genom vilken du kanalisera din magi.   
 Flashiga kläder.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 3 Astrologi  
 2 Andra synen  
 2 Trollformel – Astralt grepp  
@@ -481,7 +481,7 @@ Spetsig trollkarlhatt som du fick vid examen.
 Fickan full av trollkarlskex (2d6, var och en räknas som en proviant).  
 Trollstaven brukade hjälpa till att få nya lärlingar att fokusera bättre, nu bevarade av sentimentala skäl.   
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 4 Hemliga tecken - Häxande ord  
 2 Spring  
 1 Klättra  
@@ -507,7 +507,7 @@ Litet stekgaller.
 Väst.  
 Flaska starkt men fint vin.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 2 i en valfri stridsfärdighet  
 2 Brottning  
 2 Simma  
@@ -523,7 +523,7 @@ Du var en gång (och är möjligen fortfarande) en fanatisk munk som var instäl
 Telaks välsignelse.  
 6 valfria svärd.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 3 Observant  
 2 Smide  
 1 Svärdskamp  
@@ -541,7 +541,7 @@ Stav, dekorerad med berlocker och klockor. Kan rulla om en tärning på Oops! ta
 Böjda skor.  
 Voluminösa klädnader.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 3 Trollformel – Ångra  
 2 Trollformel – Anta form  
 2 Trollformel – Åska  
@@ -561,7 +561,7 @@ Dina ögon är slöa rubinkulor, din hud är hård och slät som elfenben men br
 Järn-lödkolv.  
 Löstagbara autonoma händer eller kentaurkropp (+4 Springa) eller inbyggd partikeldetektor (+4 Andra Sinnet) eller en slumpmässig trollformel i rang 3.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 3 Gyllenepråm Pilot  
 2 Astrologi  
 2 Pistolkamp  
@@ -584,7 +584,7 @@ Din by brändes ner av skurkar, eller din mamma halshöggs av ormkultister, elle
 Alldeles-för-långt svärd som ger +1 till långsvärdsstrid och skada när du använder det. Endast du kan dra nytta av denna bonus; det är inte magi, bara sentimentalt.  
 Gammal jakpiltbåge och 12 pilar.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 3 Långsvärdsstrid  
 1 Observant  
 1 Klättra  
@@ -603,7 +603,7 @@ Paket med ljus och tändstickor.
 Skrivmaterial.  
 Tidning.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 2 Utvärdera  
 2 Astrologi  
 1 Helande  
@@ -625,7 +625,7 @@ Svärd.
 1d6 Fickgudar.  
 Teaterkikare av rubiner.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 2 Spårning  
 2 Förklädnad  
 2 Armborstkamp  
@@ -642,7 +642,7 @@ Rapir (skada som svärd) och pösig skjorta eller Sjambok (skada som klubba) och
 Handbok om Youngardy juridik.  
 Domarperuk.  
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 4 Slåss i ditt valda vapen  
 2 Etikett  
 1 Helande  
@@ -653,7 +653,7 @@ Någon gång i ditt förflutna bestämde du dig för att du inte behövde det l�
 Ägodelar  
 Inga tillgångar; du har kastat av dig civilisationens bojor. Du är förmodligen naken. 
 
-Avancerade färdigheter  
+Avancerade SKILLS     
 3 Klättra  
 3 Spring  
 2 Styrka  
@@ -662,5 +662,5 @@ Avancerade färdigheter
 2 Brottning  
 
 Förmåga  
-Du är immun mot alla sinnesförändrande effekter. Du kan prata men väljer oftast att inte göra det. När du gör “bli bättre” för färdigheter relaterade till abstrakta tankar, som trollformler eller Astrologi, rulla två gånger och lyckas med båda för att förbättra dem.  
+Du är immun mot alla sinnesförändrande effekter. Du kan prata men väljer oftast att inte göra det. När du gör “bli bättre” för SKILLS relaterade till abstrakta tankar, som trollformler eller Astrologi, rulla två gånger och lyckas med båda för att förbättra dem.  
 
