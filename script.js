@@ -1,10 +1,23 @@
 function slumpaKaraktar() {
-    // Slumpar ett värde mellan 1 och 10 för färdighet, stamina och tur.
-    const skill = Math.floor(Math.random() * 10) + 1;
-    const stamina = Math.floor(Math.random() * 20) + 10;
-    const luck = Math.floor(Math.random() * 10) + 1;
+    // Funktion för att rulla tärning
+    function rollDice(diceCount, diceSides) {
+        let total = 0;
+        for (let i = 0; i < diceCount; i++) {
+            total += Math.floor(Math.random() * diceSides) + 1;
+        }
+        return total;
+    }
 
-    // Fyller i värdena i HTML-sidan.
+    // Beräkna SKILL: Rulla 1d3 + 3
+    const skill = rollDice(1, 3) + 3;
+
+    // Beräkna STAMINA: Rulla 2d6 + 12
+    const stamina = rollDice(2, 6) + 12;
+
+    // Beräkna LUCK: Rulla 1d6 + 6
+    const luck = rollDice(1, 6) + 6;
+
+    // Uppdatera input-fälten på sidan
     document.getElementById("skill").value = skill;
     document.getElementById("stamina").value = stamina;
     document.getElementById("luck").value = luck;
