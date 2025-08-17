@@ -13,3 +13,4 @@
 ---  
 - [Karaktärsblad](http://candy-thistle.surge.sh/)
 - [Auto Roll Tables](https://autorolltables.github.io/)
+- [Cheat Sheet](cheatsheet.md)
