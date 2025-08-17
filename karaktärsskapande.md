@@ -8,7 +8,7 @@
 2d6 Silvermynt, en kniv, en lykta och oljeflaska, en ryggsäck, 6 proviant.
 6. Rulla d66 på [bakgrundstabellen](bakgrundstabellen.md) och skriv ner ytterligare ägodelar och färdigheter.
 
-[testa!](karaktarsgenerator.md)
+[Testa min generator och screenshota svaret :)](karaktarsgenerator.md)
 
 # Bakgrunder
 
