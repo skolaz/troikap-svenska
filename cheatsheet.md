@@ -1,5 +1,5 @@
 # Göra saker
-När du ska försöka göra något svårt eller farligt, använd din SKILL. Om du har en relevant avancerad SKILL, använd SKILL + ADVANCED SKILL istället.
+När du ska försöka göra något svårt eller farligt, använd din SKILL. Om du har en relevant avancerad / ADVANCED SKILL, använd SKILL + ADVANCED SKILL istället.
 
 **ROLL UNDER** när du är utan motståndare:   
 - 2d6 på eller under din SKILL
@@ -11,17 +11,18 @@ När du ska försöka göra något svårt eller farligt, använd din SKILL. Om d
 - Strid, racing, argumentera, smyger vs letar
 - 1, 1 är alltid en fummel; misslyckades
 
-When you successfully use an Advanced Skill, put a Mark next to it. When you have time to reflect, you may Test up to 3 skills. If you roll 2d6 over your Skill total, gain +1.   
-House Rule: Mark when you fail instead
+När du lyckas med en ADVANCED SKILL, sätt ett märke nära den. Sen när du har tid, kan du pröva upp till 3 SKILLS med ett märke. Om du ROLL ÖVER din totala SKILL, får du +1 på din SKILL.   
+Husregel: Gör ett märke när du misslyckas istället   
 
-To learn a new skill, find a mentor, roll 2d6 under your Skill. Starts at 1.   
-House Rule: Instead, 1d6 over/equal skill.
+För att lära dig en ny ADVANCED SKILL, hitta en mentor och ROLL 2d6 UNDER din SKILL.   
+Nya ADVANCED SKILL börjar på 1.   
+Husregel: 1d6 över eller på din SKILL
 
 **Antal ägodelar**   
-**13+ slot:** -4 på alla ROLLS
-**18+ slot:** -4 ROLLS, knappt röra sig, omedveten om omgivning
-**Small/Litet föremål:** 1 slot, om det inte är MASSOR av dem
-**Large/Stort föremål:** 2 slots, kräver 2 händer
+**13+ slot:** -4 på alla ROLLS   
+**18+ slot:** -4 ROLLS, knappt röra sig, omedveten om omgivning    
+**Small/Litet föremål:** 1 slot, om det inte är MASSOR av dem   
+**Large/Stort föremål:** 2 slots, kräver 2 händer    
 
 För att ta fram ett föremål snabbt, rulla över eller på föremålets nummer som det ligger i väskan.      
 **Lyckas**, hitta det och spendera sedan din tur.   
@@ -29,11 +30,11 @@ För att ta fram ett föremål snabbt, rulla över eller på föremålets nummer
 
 Du kan försiktigt och snabbt slänga 1d6 saker under din tur. 2d6 om du är hänsynslös.   
 
-# Strider & att inte dö 
-**Nå 0 STAMINA** = dör vid slutet av rundan 
-**Under 0 STAMINA** = DÖD, LUCK ROLL? 
-**8h vila** = Återfå, 2d6 STAMINA, 2d6 LUCK 
-**Provianter** = Återfå 1d6 STAMINA (3 per dag) 
+# Strider & att inte dö   
+**Nå 0 STAMINA** = dör vid slutet av rundan    
+**Under 0 STAMINA** = DÖD, LUCK ROLL?    
+**8h vila** = Återfå, 2d6 STAMINA, 2d6 LUCK    
+**Provianter** = Återfå 1d6 STAMINA (3 per dag)    
 
 **Närstrid:** ROLL VERSUS. Högre resultat gör skada.
 - 6, 6 gör dubbel skada
@@ -47,10 +48,10 @@ Du kan försiktigt och snabbt slänga 1d6 saker under din tur. 2d6 om du är hä
 
 _DMG modifierare påverkar tärningskastet inte antal skada_
 
-- **Sköldar:** -1 DMG , 1 slot
-- **Lätt:** -1 DMG, 2 slots
-- **Medel:** -2 DMG, 4 slots
-- **Tung:** -3 DMG, 6 slots
+- **Sköldar:** -1 DMG , 1 slot  
+- **Lätt:** -1 DMG, 2 slots 
+- **Medel:** -2 DMG, 4 slots 
+- **Tung:** -3 DMG, 6 slots 
 
 Eld, förgiftning, drunkna: ta 1d6 STAMINA första gången du misslyckas SKILL/LUCK. 2d6 andra gången etc.   
 I strid, rulla i slutet av rundan.
@@ -72,5 +73,3 @@ Du kan alltid välja att inte använda LUCK
  Misslyckas: Du följer med ödets ström.
  
 **Sedan. Minska** din LUCK med ett poäng, oavsett resultat.
-
-
