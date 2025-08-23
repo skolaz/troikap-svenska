@@ -1,4 +1,4 @@
-# 12. Avancerade SKILLsbeskrivningar
+# 12. Avancerade/ADVANCED SKILLsbeskrivningar
 I de flesta fall kommer användningen av en SKILL att vara en rak ROLL UNDER SKILL Total (SKILL plus Advanced SKILL). Situationer där detta inte är fallet bör vara uppenbara. De tillgängliga SKILLna är inte begränsade till de som listas här. Det borde finnas mer sällsynt mat tillgängligt för dem som söker efter det eller så kanske en karaktär bara känner sig driven att lära sig inveckladheten i jordbruk eller opera av någon speciell anledning. Du kanske märker några SKILL i avsnittet Bakgrunder som inte har poster. Hitta dem. Eftersom spelarna aldrig behöver slösa tid på att plocka igenom hela urvalet, var inte rädd för att utöka listan och göra dem mer och mer specifika. 
 
 # Akrobatik
