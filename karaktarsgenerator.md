@@ -28,5 +28,8 @@ Förmåga: du kan hoppa jämfota jättelångt
 - en ryggsäck
 - 6 provianter</textarea>
     <br><br>
+
+> [!Warning]
+> Inget sparas här.
     <button onclick="slumpaKaraktar()">Skapa karaktär!</button>
 </div>
