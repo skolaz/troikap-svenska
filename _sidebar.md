@@ -13,6 +13,6 @@
 ---  
 - [Karaktärsblad](http://candy-thistle.surge.sh/)
 - [Enkelt k-blad](karaktarsgenerator.md)
-- [Initiative Troika](Initiative-tracker.md)
+- [Initiative Troika](initiative-tracker.md)
 - [Auto Roll Tables](https://autorolltables.github.io/)
 - [Cheat Sheet](cheatsheet.md)
