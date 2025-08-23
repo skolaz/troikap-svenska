@@ -1,6 +1,8 @@
 # Karaktärsgenerator
 
 Här kan du skapa din karaktär genom att slumpa fram dina initiala värden. Ta en screenshot sedan! :)
+> [!Warning]
+> Inget sparas här.
 
 <script src="character-generator.js"></script>
 <div class="generator-container">
@@ -31,6 +33,3 @@ Förmåga: du kan hoppa jämfota jättelångt
     <br><br>
     <button onclick="slumpaKaraktar()">Skapa karaktär!</button>
 </div>
-
-> [!Warning]
-> Inget sparas här.
