@@ -2,6 +2,7 @@
 
 Välkommen till initiativ-trackern för Troika!
 
+<script src="initiative-tracker.js"></script>
 <div class="initiative-container">
     <section class="add-players">
         <h2>Lägg till Spelare</h2>
