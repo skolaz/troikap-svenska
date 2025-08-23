@@ -2,6 +2,7 @@
 
 Här kan du skapa din karaktär genom att slumpa fram dina initiala värden. Ta en screenshot sedan! :)
 
+<script src="character-generator.js"></script>
 <div class="generator-container">
     <label for="name">Namn:</label><input type="text" id="name"><br><br>
     <label for="skill">SKILL (1d3+3):</label><input type="text" id="skill" readonly><br><br>
