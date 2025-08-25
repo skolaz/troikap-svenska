@@ -2,8 +2,8 @@
 
 Välkommen till initiativ-trackern för Troika!
 
-<script src="initiative-tracker.js"></script>
 
+<script src="initiative-tracker.js"></script>
 <div class="initiative-container">
     <section class="add-players">
         <h2>Lägg till Spelare</h2>
@@ -12,7 +12,6 @@ Välkommen till initiativ-trackern för Troika!
             <button type="submit">Lägg till</button>
         </form>
     </section>
-
     <section class="add-monsters">
         <h2>Lägg till Monster</h2>
         <form id="add-monster-form">
@@ -21,12 +20,10 @@ Välkommen till initiativ-trackern för Troika!
             <button type="submit">Lägg till</button>
         </form>
     </section>
-
     <section class="controls">
         <button id="start-initiative-btn">Starta Initiativ</button>
         <button id="reset-btn">Nollställ</button>
     </section>
-
     <section class="initiative-board">
         <h2>Initiativ</h2>
         <div id="token-container">
