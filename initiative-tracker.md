@@ -11,7 +11,6 @@ Välkommen till initiativ-trackern för Troika!
             <button type="submit">Lägg till</button>
         </form>
     </section>
-
     <section class="add-monsters">
         <h2>Lägg till Monster</h2>
         <form id="add-monster-form">
@@ -20,12 +19,10 @@ Välkommen till initiativ-trackern för Troika!
             <button type="submit">Lägg till</button>
         </form>
     </section>
-
     <section class="controls">
         <button id="start-initiative-btn">Starta Initiativ</button>
         <button id="reset-btn">Nollställ</button>
     </section>
-
     <section class="initiative-board">
         <h2>Initiativ</h2>
         <div id="token-container">
