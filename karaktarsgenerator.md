@@ -11,7 +11,7 @@ Här kan du skapa din karaktär genom att slumpa fram dina initiala värden. Ta 
     <label for="stamina">STAMINA (2d6+12):</label><input type="text" id="stamina" readonly><br><br>
     <label for="luck">LUCK (1d6+6):</label><input type="text" id="luck" readonly><br><br>
     <label for="advanced-skills">Avancerade skills:</label>
-    <textarea id="advanced-skills" rows="5" style="width: 100%; box-sizing: border-box;">
+    <textarea id="advanced-skills" rows="10" style="width: 100%; box-sizing: border-box;">
 tex.
 - 4 Lås
 - 3 Styrka
