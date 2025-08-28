@@ -21,6 +21,8 @@ function slumpaKaraktar() {
     document.getElementById("skill").value = skill;
     document.getElementById("stamina").value = stamina;
     document.getElementById("luck").value = luck;
+    // Anropa funktionen för att slumpa en bakgrund
+    slumpaBakgrund();
 }
 
 function printCharacterSheet() {
