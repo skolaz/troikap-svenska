@@ -1,5 +1,3 @@
-# Bakgrundstabellen
-
 # 11 Ivrig jätte av Corda
 Varje jätte har en annan historia om Corda, väl berättad och avbruten av tårar och skratt, om hur de tappade den och menade att hitta den snart nog, men oj, vad händer idag? Vi borde dricka och heja, vi letar en gång till i morgon!
 
