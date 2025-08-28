@@ -29,28 +29,31 @@ function printCharacterSheet() {
   window.print();
 }
 function slumpaBakgrund() {
-  fetch('bakgrundstabellen.md')
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Kunde inte ladda filen med bakgrunder.');
-      }
-      return response.text();
-    })
-    .then(markdownText => {
-      // Delar upp texten i rader
-      const backgrounds = markdownText.split('\n').filter(line => line.trim() !== '');
-
-      // Slumpa fram ett nummer mellan 0 och antalet bakgrunder
-      const randomIndex = Math.floor(Math.random() * backgrounds.length);
-      
-      // Välj ut den slumpade bakgrunden
-      const randomBackground = backgrounds[randomIndex];
-
-      // Sätt in texten i din textarea
-      document.getElementById('background').value = randomBackground;
-    })
-    .catch(error => {
-      console.error("Fel vid laddning av bakgrunder:", error);
-      document.getElementById('background').value = "Kunde inte ladda bakgrunden.";
-    });
-}
+    fetch('bakgrundstabellen.md')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Kunde inte ladda filen med bakgrunder.');
+        }
+        return response.text();
+      })
+      .then(markdownText => {
+        // Delar upp texten i block av text, avgränsat av dubbla radbrytningar
+        const backgrounds = markdownText.split('\n\n').filter(block => block.trim() !== '');
+  
+        // Slumpa fram ett nummer mellan 0 och antalet bakgrunder
+        const randomIndex = Math.floor(Math.random() * backgrounds.length);
+        
+        // Välj ut den slumpade bakgrunden
+        const randomBackground = backgrounds[randomIndex];
+        
+        // Sätt in texten i din textarea
+        document.getElementById('background').value = randomBackground;
+        
+        // Anpassa storleken på rutan
+        resizeTextarea('background');
+      })
+      .catch(error => {
+        console.error("Fel vid laddning av bakgrunder:", error);
+        document.getElementById('background').value = "Kunde inte ladda bakgrunden.";
+      });
+  }
