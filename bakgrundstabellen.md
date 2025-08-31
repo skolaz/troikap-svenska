@@ -15,7 +15,7 @@ Du är en klok man, en överstepräst, en dammpisser, en typisk men engagerad an
 
 Ägodelar   
 Juterock, inbakade i stinkande lera och undervegetation. +1 till att smyga rullar i sumpig terräng medan du bär dem, -1 överallt annars eftersom det stinker!
-En stor, sliten träslev (skada som mörbulta).
+En stor, sliten träslev (skada som mörbulta). 1 	2 	3 	6 	12 	13 	14    
 
 Avancerade SKILLS   
 3 Trollformel – Drunkna   
@@ -53,9 +53,9 @@ Du kan testa din lycka för att hitta och komma in med den lokala kriminella und
 Du är de-smutsiga-födda, skapade i den puckelryggade himlen upplyst endast av stora svarta anti-solar och falskt ljus. Din mamma seglade på de gyllene pråmarna eller fastnade i något mer abstrakt öde när hon passerade dig, långt från miljonsfärernas skyddande sjukdomskänsla. Du var mottaglig för kraften och härligheten vid en generativ tidpunkt och det syns i din teratoida form.
 
 Ägodelar   
-Lätt musköt.   
+Lätt musköt. 2 	4 	4 	6 	12 	18 	24   
 2d6 Plasmika kärnor.   
-Svärd.   
+Svärd. 4 	6 	6 	6 	6 	8 	10   
 Slöja.   
 
 Avancerade SKILLS   
@@ -73,7 +73,7 @@ Du har inte längre på dig den spetsiga mässingsrustningen men du har fortfara
 
 Ägodelar  
 Rituella ärr.  
-En enorm mörbulta.  
+En enorm mörbulta.  1 	2 	3 	6 	12 	13 	14    
 Sortiment av ovårdade rustningar (räknas som medel skydd).  
 Drömjournal, nästan full.  
 
@@ -93,7 +93,7 @@ ganska fascinerade av enkla kistor och dörrar är de mest upphetsade av metafys
 
 Ägodelar  
 Försedd med nycklar (räknas som medel skydd).  
-En smakfull slägga (skada som mörbulta).  
+En smakfull slägga (skada som mörbulta).  1 	2 	3 	6 	12 	13 	14   
 Verktyg för att bryta upp lås.  
 
 Avancerade SKILLS    
@@ -110,8 +110,8 @@ Du satsar ditt rykte på din förmåga att jaga och döda demoniska varelser och
 att köras tillbaka från kanten av kartan och in på kaosets stränder.
 
 Ägodelar  
-Ett silversvärd.  
-16 Silverpilar och pilbåge.  
+Ett silversvärd.  4 	6 	6 	6 	6 	8 	10    
+16 Silverpilar och pilbåge.  2 	4 	6 	8 	8 	10 	12   
 Påse med salt.  
 Flaska med demonblod.  
 
@@ -128,7 +128,7 @@ Avancerade SKILLS
 Du är en kort, hårig, krigisk, alkoholberoende varelse. Dvärgar är ett skulpterat folk, ogenerat, och därför finns det inga dvärgbarn eller dvärgfamiljer som hindrar dig från att fullt ut engagera dig i de viktiga Dvärgarnas strävanden att skapa konst på ovanliga platser. Du tänker hitta de mest ovanliga platserna i alla miljoner sfärer.
 
 Ägodelar  
-Murarhammare.  
+Murarhammare.  1 	2 	4 	6 	8 	10 	12    
 Rulle med konstnärsmaterial.  
 
 Avancerade SKILLS  
@@ -138,7 +138,7 @@ Avancerade SKILLS
 2 Metallbearbetning  
 2 Konstruktion  
 2 Styrka  
-2 Knytnävar  
+2 Knytnävar  1 	1 	1 	2 	2 	3 	4    
 2 Brottning  
 1 Hammarkamp  
 
@@ -150,7 +150,7 @@ Du är en strövande siare och säljer dina visioner på domstolar och fester. D
 
 Ägodelar  
 Gul Epopt-outfit, vadderad för skydd mot olyckliga kunder (räknas som medel skydd).  
-Epoptstav, är en gångstav med seende kristall i ena änden (skada som stav).  
+Epoptstav, är en gångstav med seende kristall i ena änden (skada som stav).  2 	4 	4 	4 	4 	6 	8    
 Hopfällbart tält, tillräckligt stort för ditt bås.  
 
 Avancerade SKILLS  
@@ -158,7 +158,7 @@ Avancerade SKILLS
 2 Utvärdera  
 1 Andra synen  
 1 Etikett  
-1 Knytnävar  
+1 Knytnävar  1 	1 	1 	2 	2 	3 	4    
 1 Spring  
 
 Förmåga  
@@ -171,7 +171,7 @@ Där du kommer ifrån har det blivit ganska normalt att korsa sfärerna. Sysslol
 Hermetiskt förseglad gummidräkt (räknas som tungt skydd)  
 Exografiska övervakande box  
 Fjäderspännd måttband  
-Pistolet  
+Pistolet  2 	2 	4 	4 	6 	12 	16   
 1d6 Plasmatika kärnor  
   
 Avancerade SKILLS  
@@ -185,7 +185,7 @@ Matematologer hedrar matematikens rena och entydiga sanningar och samordnar dem 
 yta och skymta de grundläggande siffrorna nedan.
 
 Ägodelar  
-Stor Astrolabium (skada som spikklubba).  
+Stor Astrolabium (skada som spikklubba).  2 	4 	4 	6 	6 	8 	10   
 Kulram, även kallad abacus.  
 Massor av rullar och skrivutrustning.  
 
@@ -200,12 +200,12 @@ Luggers är en överdrivet tjänstvillig grupp av naturen, som oftast finns i an
 Ägodelar  
 Ett ok av trä.  
 Brun överrock och mjuk hatt som ofta lyfts från skrået.  
-En balkrok (skada som kniv och +1 på rullar för att lyfta tunga föremål).  
+En balkrok (skada som kniv och +1 på rullar för att lyfta tunga föremål).  2 	2 	2 	2 	4 	8 	10    
 En längd rep.
 
 Avancerade SKILLS  
 4 Styrka  
-2 Knytnävar  
+2 Knytnävar   1 	1 	1 	2 	2 	3 	4    
 2 Spring  
 1 Krok-strid  
 1 Smyga  
@@ -237,9 +237,9 @@ Du är en lönnmördare i träning, utexaminerad från att slåss med dumskallar
 Ägodelar  
 Svarta kläder indikerar lärlingens status.  
 Strypjärn.  
-Böjt svärd.  
+Böjt svärd. 4 	6 	6 	6 	6 	8 	10   
 3 injektionsflaskor med gift.  
-Armborst och 6 bultar.
+Armborst och 6 bultar. 4 	4 	6 	8 	8 	8 	10   
 
 Avancerade SKILLS  
 1 Gift  
@@ -256,16 +256,16 @@ Avancerade SKILLS
 Du var en legosoldat som behölls i Fenixtronens exklusiva tjänst, vackert betald och skickad till avlägsna sfärer på gyllene skepp för att sprida dina herrars outsägliga härlighet vid spetsen av ditt flammande svärd. 
 
 Ägodelar  
-Makalöst förbluffande pistolet.  
+Makalöst förbluffande pistolet.  2 	2 	4 	4 	6 	12 	16   
 Bandolier som innehåller 18 plasmika kärnor.  
-Storsvärd.  
+Storsvärd.  2 	4 	8 	10 	12 	14 	18       
 Färgglada kläder med massor av tofsar och klockor (omöjligt att smyga). Även om den ser oseriöst ut är den i själva verket byggd med Autarchens gudomliga alkemi och anses vara medel skydd samtidigt som den väger samma som vanliga kläder (tar ingen plats bland dina ägodelar).  
 
 Avancerade SKILLS  
 2 Storsvärdskamp  
 2 Pistolkamp  
 1 Spring  
-1 Knytnävar  
+1 Knytnävar  1 	1 	1 	2 	2 	3 	4   
 1 Astrologi  
 
 # 34 Enslig monark
@@ -286,7 +286,7 @@ Avancerade SKILLS
 Förtärarna vet att det bara finns två världar: Utanför och Innanför. De har för avsikt att infoga så mycket av det föregående i det senare som de kan, samtidigt som de upplever de finaste läckerheterna tillgängliga. All kulinarisk upplevelse är öppen för dem eftersom ingenting är förbjudet på Fröken Kinsey's. Prova det andra, andra, andra vita köttet.
 
 Ägodelar  
-Vass metalltandställning (skada som svärd) eller gaffelformade metalltandställning (skada som kniv). På ett Mighty Blow kan du rengöra allt kött från en liten lem) eller trubbig metalltandställning (skada som kniv). Kan användas för att äta hårda föremål).  
+Vass metalltandställning (skada som svärd) (4 	6 	6 	6 	6 	8 	10) eller gaffelformade metalltandställning (skada som kniv) (2 	2 	2 	2 	4 	8 	10). På ett Mighty Blow kan du rengöra allt kött från en liten lem) eller trubbig metalltandställning (skada som kniv) (2 	2 	2 	2 	4 	8 	10). Kan användas för att äta hårda föremål).  
 Broderad servett.  
 
 Avancerade SKILLS     
@@ -305,7 +305,7 @@ distinktionen är enbart för att lockelse eftersom alla apor naturligtvis är �
 
 Ägodelar  
 Apklubba.  
-Slaktarkniv.  
+Slaktarkniv.  2 	2 	2 	2 	4 	8 	10   
 1d6 Små apor som inte lyssnar på kommandon men är för rädda och hungriga för att resa långt ifrån dig.  
 En ficka full med apagodis.  
 
@@ -350,7 +350,7 @@ Känd för sin släta hud, midnattssamlingar och övernaturliga rädsla för reg
 d6 Pergamentrullar.  
 Flaskor med pigment och pulver.  
 Samling av borstar.  
-Svärdkäpp.  
+Svärdkäpp.  4 	6 	6 	6 	6 	8 	10   
 
 Avancerade SKILLS     
 2 Trollformel – Skydd mot regn  
@@ -370,11 +370,11 @@ Du är odöd och behöver därför inte andas eller cirkulera blod. Du tar dubbe
 Dvärgar är kända för att vara de bästa hantverkarna av de miljoner sfärerna. Ge en dvärg en sten och de kommer att göra guld, ge en dvärg ett stenblock och de kommer att göra en dvärg. Du skulle vara det finaste uttrycket för dvärgiskt hantverk, ett sant mästerverk, ett helt nytt steg i estetisk design, ett hopp som inte setts sedan de gamla mästarna. (Derivat betyder bildats ur ett annat ämne)
 
 Ägodelar  
-Skogshuggar yxa.  
+Skogshuggar yxa.  2 	2 	6 	6 	8 	10 	12   
 Tom kagge.  
 
 Avancerade SKILLS     
-3 Knytnävar  
+3 Knytnävar  1 	1 	1 	2 	2 	3 	4    
 3 Observant  
 2 Styrka  
 2 Brottning  
@@ -391,9 +391,9 @@ ditt romantiska melodrama, anklagar gott folk för att vara demoner eller älvor
 Ägodelar  
 Tung rustning.  
 Häst.  
-Lans (skada som spjut).  
-Svärd.  
-Sköld.  
+Lans (skada som spjut).  4 	4 	6 	6 	8 	8 	10   
+Svärd.  4 	6 	6 	6 	6 	8 	10    
+Sköld.  2 	2 	2 	4 	4 	6 	8   
 Ett donquijotiskt förpliktelse.  
 
 Avancerade SKILLS     
@@ -409,7 +409,7 @@ Du är en evangelist för den Röda Försoningen, vandrande biktfader, frätare 
 Ägodelar  
 Röda dräkter.  
 Traditionell ansiktslös metallhjälm av din Order (medel skydd).  
-Symbolisk (men fullstor och fullt funktionell) enhövdad storyxa, för att hjälpa till att slå ner dörren till en syndare (skada som storsvärd).  
+Symbolisk (men fullstor och fullt funktionell) enhövdad storyxa, för att hjälpa till att slå ner dörren till en syndare (skada som storsvärd).  2 	4 	8 	10 	12 	14 	18    
 
 Avancerade SKILLS     
 2 Trollformel – Eldlåga  
@@ -423,9 +423,9 @@ Avancerade SKILLS
 De ursprungliga rhinomännen skapades av en galen trollkarl för flera århundraden sedan, men gjorde uppror och dödade honom. De är ganska sällsynta varelser, som tjänar som formidabla och lojala vakter för dem som har råd med deras tjänster.
 
 Ägodelar  
-Horn (Skada som kniv).  
+Horn (Skada som kniv).  2 	2 	2 	2 	4 	8 	10   
 Tjock hud (rhinomän räknas alltid som medel skydd).  
-Underdimensionerat spjut.  
+Underdimensionerat spjut.  4 	4 	6 	6 	8 	8 	10   
 Liten, värdelös hjälm.  
 Tärning av knogbrosk.  
 Halvfull kagge av Rhino-öl (värda 20 proviant).  
@@ -442,8 +442,8 @@ Med en tjurkropp, en mans huvud, en katts framben och en sångsvans vingar är d
 Ägodelar   
 Tillfälliga heliga smycken värda 10d6 silvermynt om de sålda.  
 Pillerburks hatt.  
-Klor (skada som svärd).  
-Hovar (skada som klubba).  
+Klor (skada som svärd).  4 	6 	6 	6 	6 	8 	10   
+Hovar (skada som klubba).  1 	1 	2 	3 	6 	8 	10   
 Vingar — kan flyga lika snabbt som en springande man på marken.  
 
 Avancerade SKILLS     
@@ -477,7 +477,7 @@ Som en integrerad del av din handledning i den underdimensionella Akademin för 
 Ägodelar  
 Spetsig trollkarlhatt som du fick vid examen.  
 Fickan full av trollkarlskex (2d6, var och en räknas som en proviant).  
-Trollstaven brukade hjälpa till att få nya lärlingar att fokusera bättre, nu bevarade av sentimentala skäl.   
+Trollstaven brukade hjälpa till att få nya lärlingar att fokusera bättre, nu bevarade av sentimentala skäl. 2 	4 	4 	4 	4 	6 	8    
 
 Avancerade SKILLS     
 4 Hemliga tecken - Häxande ord  
@@ -511,7 +511,7 @@ Avancerade SKILLS
 2 Simma  
 2 Klättra  
 2 Spring  
-2 Knytnävar  
+2 Knytnävar  1 	1 	1 	2 	2 	3 	4    
 1 Grillning  
 
 # 55 Tempelriddare av Telak den som Bringar Svärd  
@@ -519,7 +519,7 @@ Du var en gång (och är möjligen fortfarande) en fanatisk munk som var instäl
 
 Ägodelar  
 Telaks välsignelse.  
-6 valfria svärd.  
+6 valfria svärd.  4 	6 	6 	6 	6 	8 	10    
 
 Avancerade SKILLS     
 3 Observant  
@@ -535,7 +535,7 @@ Vandrande mirakelarbetare, vars djupa kläder är fyllda med påsar med krämer,
 
 Ägodelar  
 Thaumaturgisk fez.  
-Stav, dekorerad med berlocker och klockor. Kan rulla om en tärning på Oops! tabellen, dock om du använder den här staven, kanske du aldrig smyger på någon på grund av det ringande och klapprande det ger.  
+Stav, dekorerad med berlocker och klockor. Kan rulla om en tärning på Oops! tabellen, dock om du använder den här staven, kanske du aldrig smyger på någon på grund av det ringande och klapprande det ger.  2 	4 	4 	4 	4 	6 	8    
 Böjda skor.  
 Voluminösa klädnader.  
 
@@ -579,7 +579,7 @@ Du räknas alltid som åtminstone lätt bepansrad.
 Din by brändes ner av skurkar, eller din mamma halshöggs av ormkultister, eller din far hängdes av korrupta tjänstemän. I vilket fall som helst tog du illa upp och kom in i världen med ett chip på ena axeln och ett överdimensionerat svärd på den andra.
 
 Ägodelar  
-Alldeles-för-långt svärd som ger +1 till långsvärdsstrid och skada när du använder det. Endast du kan dra nytta av denna bonus; det är inte magi, bara sentimentalt.  
+Alldeles-för-långt svärd som ger +1 till långsvärdsstrid och skada när du använder det. Endast du kan dra nytta av denna bonus; det är inte magi, bara sentimentalt.  4 	6 	8 	8 	10 	12 	14    
 Gammal jakpiltbåge och 12 pilar.  
 
 Avancerade SKILLS     
@@ -596,7 +596,7 @@ Du är en klassiskt utbildad akademiker, en produkt från universiteten i Brass 
 
 Ägodelar  
 Läsglasögon i ett robust fodral (du kan inte läsa utan dem).  
-Litet svärd.  
+Litet svärd.  4 	6 	6 	6 	6 	8 	10    
 Paket med ljus och tändstickor.  
 Skrivmaterial.  
 Journal.  
@@ -618,8 +618,8 @@ Vissa människor säger att människan är det farligaste bytet. De har fel. Kan
 Ägodelar  
 Stor säck.  
 Häxhårsrep.  
-Armborst och 12 bultar.  
-Svärd.  
+Armborst och 12 bultar.  4 	4 	6 	8 	8 	8 	10   
+Svärd.  4 	6 	6 	6 	6 	8 	10    
 1d6 Fickgudar.  
 Teaterkikare av rubiner.  
 
@@ -636,7 +636,7 @@ Avancerade SKILLS
 Nere i Yongardy gör de saker annorlunda. De respekterar lagen. Varje dag är det kö utanför domstolarna för att få en plats för att se den senaste aktuella advokaten försvara sin sak med en meter stål. Människorna följer sina favoritadvokaters karriärer, tittar på alla deras fall, samlar in sina porträtt och smyger in i domstolen efter timmar för att dutta blodfläckarna på vita näsdukar. I Yongardy älskar de lagen.
 
 Ägodelar  
-Rapir (skada som svärd) och pösig skjorta eller Sjambok (skada som klubba) och massor av ärr eller långsvärd och rungt skydd eller hammare och mastodontisk sköld.  
+Rapir (skada som svärd) (4 	6 	6 	6 	6 	8 	10) och pösig skjorta *eller* Sjambok (skada som klubba) (1 	1 	2 	3 	6 	8 	10) och massor av ärr *eller* långsvärd (4  6 	8 	8 	10 	12 	14) och tungt skydd *eller* hammare (1 	2 	4 	6 	8 	10 	12) och mastodontisk sköld.  (2 	2 	2 	4 	4 	6 	8)    
 Handbok om Youngardy juridik.  
 Domarperuk.  
 
@@ -655,7 +655,7 @@ Avancerade SKILLS
 3 Klättra  
 3 Spring  
 2 Styrka  
-2 Knytnävar  
+2 Knytnävar  1 	1 	1 	2 	2 	3 	4   
 2 Klubbkamp  
 2 Brottning  
 
