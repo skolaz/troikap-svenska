@@ -22,17 +22,58 @@ function slumpaKaraktar() {
     loadDefaultPossessions();
 }
 
+// Funktion för att extrahera innehållet från en given rubrik
 function extractContentByTitle(markdownText, title) {
-    // Skapa ett dynamiskt regex-uttryck
-    // Använd 'g' för att hitta alla rubriker.
-    const regex = new RegExp(`^#\\s*${title}[\\s\\S]*?(?=\\n#|$)`, 'm');
-    const match = markdownText.match(regex);
-  
-    if (match) {
-        // match[0] innehåller hela den matchade strängen, inklusive rubriken och innehållet.
-        return match[0].trim();
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = marked(markdownText);
+    
+    let content = "";
+    const headers = tempDiv.querySelectorAll('h1');
+    for (const header of headers) {
+        if (header.textContent.trim() === title.trim()) {
+            let nextElement = header.nextElementSibling;
+            while (nextElement && nextElement.tagName !== 'H1') {
+                content += nextElement.outerHTML;
+                nextElement = nextElement.nextElementSibling;
+            }
+            break;
+        }
     }
-    return "";
+    return content;
+}
+
+// Funktion för att slumpa fram och ladda en bakgrund
+function slumpaBakgrund() {
+    fetch('bakgrundstabellen.md')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Kunde inte ladda filen med bakgrunder.');
+            }
+            return response.text();
+        })
+        .then(markdownText => {
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = marked(markdownText);
+
+            const titles = Array.from(tempDiv.querySelectorAll('h1')).map(h1 => h1.textContent.trim());
+            
+            if (!titles || titles.length === 0) {
+                document.getElementById('background').innerHTML = "Kunde inte hitta några bakgrunder i filen.";
+                return;
+            }
+
+            const randomIndex = Math.floor(Math.random() * titles.length);
+            const randomTitle = titles[randomIndex];
+
+            const backgroundContent = extractContentByTitle(markdownText, randomTitle);
+            
+            // Konvertera Markdown till HTML och sätt in det i div:en
+            document.getElementById('background').innerHTML = `<h1>${randomTitle}</h1>${backgroundContent}`;
+        })
+        .catch(error => {
+            console.error("Fel vid laddning av bakgrunder:", error);
+            document.getElementById('background').innerHTML = "Kunde inte ladda bakgrunden.";
+        });
 }
 
 function printCharacterSheet() {
