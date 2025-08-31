@@ -1,4 +1,5 @@
 function slumpaKaraktar() {
+    // Funktion för att rulla tärning
     function rollDice(diceCount, diceSides) {
         let total = 0;
         for (let i = 0; i < diceCount; i++) {
@@ -16,8 +17,9 @@ function slumpaKaraktar() {
     document.getElementById("stamina").innerHTML = stamina;
     document.getElementById("luck").innerHTML = luck;
 
-    // Anropa funktionen för att slumpa en bakgrund
+    // Anropa funktionerna för att slumpa bakgrund och ladda ägodelar
     slumpaBakgrund();
+    loadDefaultPossessions();
 }
 
 function extractContentByTitle(markdownText, title) {
