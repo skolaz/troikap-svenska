@@ -28,6 +28,19 @@ function slumpaKaraktar() {
 function printCharacterSheet() {
   window.print();
 }
+
+function extractContentByTitle(markdownText, title) {
+  // Regex som hittar rubriken (t.ex. "# 11 Ivrig jätte av Corda")
+  // och sedan fångar allt som kommer efter, fram till nästa rubrik eller slutet av filen.
+  const regex = new RegExp(`(^#\\s*${title}[\\s\\S]*?)(?=\\n#|$)`, 'm');
+  const match = markdownText.match(regex);
+  
+  if (match) {
+    return match[1].trim();
+  }
+  return "";
+}
+
 function slumpaBakgrund() {
   fetch('bakgrundstabellen.md')
     .then(response => {
@@ -37,16 +50,19 @@ function slumpaBakgrund() {
       return response.text();
     })
     .then(markdownText => {
+      // Hitta alla rubriker i filen.
       const titles = markdownText.match(/^#\s*.+$/gm);
 
       if (!titles || titles.length === 0) {
-        document.getElementById('background').innerHTML = "Kunde inte hitta några bakgrunder i filen.";
-        return;
+          document.getElementById('background').innerHTML = "Kunde inte hitta några bakgrunder i filen.";
+          return;
       }
 
+      // Slumpa fram ett nummer mellan 0 och antalet rubriker.
       const randomIndex = Math.floor(Math.random() * titles.length);
       const randomTitle = titles[randomIndex].replace(/^#\s*/, '');
 
+      // Extrahera hela kapitlet (med rubriken) baserat på den slumpade rubriken.
       const backgroundContent = extractContentByTitle(markdownText, randomTitle);
 
       // Konvertera Markdown till HTML och sätt in det i din div.
