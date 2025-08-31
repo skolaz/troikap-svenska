@@ -62,15 +62,33 @@ function printCharacterSheet() {
 }
 
 async function copyCharacterSheet() {
-    // Hämta värden från varje fält
+    // Hämta värden från fält som inte är beroende av Markdown
     const name = document.getElementById('name').value;
-    const backgroundContent = document.getElementById('background').textContent;
     const skill = document.getElementById('skill').textContent;
     const stamina = document.getElementById('stamina').textContent;
     const luck = document.getElementById('luck').textContent;
+
+    // Hämta den senaste slumpade bakgrunden
+    const randomBackgroundElement = document.getElementById('background');
+    const randomBackgroundTitle = randomBackgroundElement.querySelector('h1').textContent.trim();
+
+    // Hämta den ursprungliga bakgrundstabellens Markdown-text
+    const response = await fetch('bakgrundstabellen.md');
+    const markdownText = await response.text();
+
+    // Dela upp texten i en array med strängar, en för varje avsnitt.
+    const sections = markdownText.split(/(?=^#\s*.+)/gm);
+    const validSections = sections.filter(section => section.trim() !== '');
+
+    // Hitta det avsnitt som matchar den slumpade rubriken
+    const backgroundSection = validSections.find(section => {
+        const titleMatch = section.match(/^#\s*(.+)/);
+        return titleMatch && titleMatch[1].trim() === randomBackgroundTitle;
+    });
+
     const possessions = document.getElementById('possessions').textContent;
 
-    // Sätt ihop allt till en enda textsträng
+    // Skapa en ny textsträng med korrekt formatering
     const characterText = `Namn: ${name}
 
 EGENSKAPER
@@ -79,15 +97,14 @@ STAMINA: ${stamina}
 LUCK: ${luck}
 
 Bakgrund:
-${backgroundContent}
-    
+${backgroundSection || ''}
+
 Startägodelar:
 ${possessions}`;
 
-    // Försök att kopiera texten till urklipp (clipboard)
+    // Försök att kopiera texten till urklipp
     try {
         await navigator.clipboard.writeText(characterText);
-        console.log("Karaktärsbladet har kopierats till urklipp!");
         alert("Karaktärsbladet har kopierats!");
     } catch (err) {
         console.error('Kunde inte kopiera texten: ', err);
