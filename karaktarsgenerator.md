@@ -16,10 +16,8 @@ Här kan du skapa din karaktär genom att slumpa fram dina initiala värden. Ta 
     <div id="luck" contenteditable="true" class="editable-field"></div>
     <label for="background">Bakgrund:</label>
     <div id="background" contenteditable="true" class="editable-field"></div>
-    <br><br>
     <label for="possessions">Start ägodelar:</label>
 <div id="possessions" contenteditable="true" class="editable-field"></div>
-<br><br>
     <button onclick="slumpaKaraktar()">Skapa karaktär!</button>
     <button onclick="printCharacterSheet()">Skriv ut/Spara (stäng menyn om den ska vara rakare)</button>
 </div>
