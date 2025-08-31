@@ -88,28 +88,33 @@ async function copyCharacterSheet() {
 
     const possessions = document.getElementById('possessions').textContent;
 
-    // Skapa en ny textsträng med korrekt formatering
+    // Skapa en textsträng med korrekt formatering
     const characterText = `Namn: ${name}
-
+    
 EGENSKAPER
 SKILL: ${skill}
 STAMINA: ${stamina}
 LUCK: ${luck}
-
+    
 Bakgrund:
 ${backgroundSection || ''}
-
+    
 Startägodelar:
 ${possessions}`;
 
-    // Försök att kopiera texten till urklipp
-    try {
-        await navigator.clipboard.writeText(characterText);
-        alert("Karaktärsbladet har kopierats!");
-    } catch (err) {
-        console.error('Kunde inte kopiera texten: ', err);
-        alert("Kunde inte kopiera texten. Vänligen prova igen.");
-    }
+    // Skapa en tillfällig textarea
+    const tempTextarea = document.createElement('textarea');
+    tempTextarea.value = characterText;
+    document.body.appendChild(tempTextarea);
+
+    // Välj och kopiera texten från textarea-elementet
+    tempTextarea.select();
+    document.execCommand('copy');
+
+    // Ta bort det tillfälliga textarea-elementet
+    document.body.removeChild(tempTextarea);
+
+    alert("Karaktärsbladet har kopierats!");
 }
 
 // Funktion som fyller i startägodelarna
