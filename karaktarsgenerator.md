@@ -8,16 +8,12 @@ Här kan du skapa din karaktär genom att slumpa fram dina initiala värden. Ta 
 <div class="generator-container">
     <label for="name">Namn:</label>
     <div id="name" contenteditable="true" class="editable-field"></div>
-    <br><br>
     <label for="skill">SKILL (1d3+3):</label>
     <div id="skill" contenteditable="true" class="editable-field"></div>
-    <br><br>
     <label for="stamina">STAMINA (2d6+12):</label>
     <div id="stamina" contenteditable="true" class="editable-field"></div>
-    <br><br>
     <label for="luck">LUCK (1d6+6):</label>
     <div id="luck" contenteditable="true" class="editable-field"></div>
-    <br><br>
     <label for="background">Bakgrund:</label>
     <div id="background" contenteditable="true" class="editable-field"></div>
     <br><br>
