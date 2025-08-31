@@ -1,7 +1,6 @@
 # Karaktärsgenerator
 
 Här kan du skapa din karaktär genom att slumpa fram dina initiala värden. Ta en screenshot sedan, eller markera allt och copy pasta till ett eget text dokument! :)
-> [!Warning]
 > Inget sparas här.
 
 <script src="//cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
