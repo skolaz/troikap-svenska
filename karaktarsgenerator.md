@@ -11,7 +11,7 @@ Här kan du skapa din karaktär genom att slumpa fram dina initiala värden. Ta 
     <label for="stamina">STAMINA (2d6+12):</label><input type="text" id="stamina" ><br><br>
     <label for="luck">LUCK (1d6+6):</label><input type="text" id="luck"><br><br>
     <label for="background">Bakgrund:</label>
-<textarea id="background" rows="10" style="width: 100%; box-sizing: border-box;"onchange="resizeTextarea('background')"></textarea><br><br>
+<div id="background" class="background-content"></div><br><br>
     <label for="possessions">Start ägodelar:</label>
     <textarea id="possessions" rows="5" style="width: 100%; box-sizing: border-box;">
 - 2d6 silvermynt
