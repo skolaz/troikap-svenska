@@ -1,3 +1,4 @@
+// Funktion för att slumpa karaktärs-värden
 function slumpaKaraktar() {
     // Funktion för att rulla tärning
     function rollDice(diceCount, diceSides) {
@@ -67,7 +68,7 @@ function slumpaBakgrund() {
 
             const backgroundContent = extractContentByTitle(markdownText, randomTitle);
             
-            // Konvertera Markdown till HTML och sätt in det i div:en
+            // Sätt in rubriken och det extraherade innehållet i bakgrunds-div:en.
             document.getElementById('background').innerHTML = `<h1>${randomTitle}</h1>${backgroundContent}`;
         })
         .catch(error => {
@@ -76,38 +77,9 @@ function slumpaBakgrund() {
         });
 }
 
+// Funktion för att skriva ut karaktärsbladet
 function printCharacterSheet() {
     window.print();
-}
-
-function slumpaBakgrund() {
-    fetch('bakgrundstabellen.md')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Kunde inte ladda filen med bakgrunder.');
-            }
-            return response.text();
-        })
-        .then(markdownText => {
-            const titles = markdownText.match(/^#\s*.+$/gm);
-
-            if (!titles || titles.length === 0) {
-                document.getElementById('background').innerHTML = "Kunde inte hitta några bakgrunder i filen.";
-                return;
-            }
-
-            const randomIndex = Math.floor(Math.random() * titles.length);
-            const randomTitle = titles[randomIndex].replace(/^#\s*/, '');
-
-            const backgroundContent = extractContentByTitle(markdownText, randomTitle);
-            
-            // Konvertera Markdown till HTML och sätt in det i div:en
-            document.getElementById('background').innerHTML = marked(backgroundContent);
-        })
-        .catch(error => {
-            console.error("Fel vid laddning av bakgrunder:", error);
-            document.getElementById('background').innerHTML = "Kunde inte ladda bakgrunden.";
-        });
 }
 
 // Funktion som fyller i startägodelarna
@@ -124,3 +96,6 @@ function loadDefaultPossessions() {
   // Sätt in texten i div-elementet
   document.getElementById("possessions").innerHTML = htmlText;
 }
+
+// Notera: window.onload-anropet bör tas bort från denna fil
+// och ersättas med Docsifys ready hook i index.html.
