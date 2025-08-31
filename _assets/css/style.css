@@ -25,3 +25,17 @@ h1, h2, h3, h4, h5, h6 {
         left: unset;
     }
 }
+
+.editable-field {
+  border: 1px solid #ccc; /* En solid, grå kant */
+  padding: 8px; /* Lite luft runt texten */
+  background-color: #f9f9f9; /* En lätt grå bakgrundsfärg */
+  min-height: 20px; /* Ser till att rutan inte blir för liten */
+  box-sizing: border-box; /* Inkluderar padding i totala bredden */
+}
+
+/* Ändra utseendet när användaren klickar i rutan */
+.editable-field:focus {
+  border-color: #555; /* Mörkare kant när rutan är aktiv */
+  outline: none; /* Ta bort standard-outline i vissa webbläsare */
+}
