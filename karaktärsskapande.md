@@ -8,7 +8,6 @@
 2d6 Silvermynt, en kniv, en lykta och oljeflaska, en ryggsäck, 6 proviant.
 6. Rulla d66 på [bakgrundstabellen](bakgrundstabellen.md) och skriv ner ytterligare ägodelar och färdigheter.
 
-> [!Tip]
 > Testa min [generator](karaktarsgenerator.md) och screenshota svaret :)
 
 # Bakgrunder
@@ -19,7 +18,7 @@ Rulla slumpmässigt för att bestämma din startbakgrund. Lägg märke till att 
 
 [*(Gå till bakgrundstabellen)*](bakgrundstabellen.md)
 
-# *Skapa dina egna bakgrunder*
+# Skapa dina egna bakgrunder
 
 När du skapar dina egna bakgrunder, som en allmän regel, håll dig till 10 eller så totala poäng fördelade i ett intervall på 1 till 3, där 3 är någon som redan har behärskat sitt yrke. Avfärda inte vikten av en beskrivning – de är spelarnas fönster in i världen – men känn dig inte skrämd av dem. Håll dem enkla och packa in så mycket information som du kan; när de är korta och suggestiva kommer spelaren att fylla i luckorna. Bakgrunderna behöver inte vara balanserade eller lika med varandra utan ska istället vara roliga och smakrika. Efter att ha skapat en ny bakgrund ta en stund att överväga reaktionen från någon som tar emot den istället för någon annan bloggposti din speciella och ständigt föränderliga lista [av bakgrunder]. Balansera njutningen snarare än siffrorna.
 

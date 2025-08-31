@@ -61,6 +61,40 @@ function printCharacterSheet() {
     window.print();
 }
 
+async function copyCharacterSheet() {
+    // Hämta värden från varje fält
+    const name = document.getElementById('name').value;
+    const backgroundContent = document.getElementById('background').textContent;
+    const skill = document.getElementById('skill').textContent;
+    const stamina = document.getElementById('stamina').textContent;
+    const luck = document.getElementById('luck').textContent;
+    const possessions = document.getElementById('possessions').textContent;
+
+    // Sätt ihop allt till en enda textsträng
+    const characterText = `Namn: ${name}
+
+EGENSKAPER
+SKILL: ${skill}
+STAMINA: ${stamina}
+LUCK: ${luck}
+
+Bakgrund:
+${backgroundContent}
+    
+Startägodelar:
+${possessions}`;
+
+    // Försök att kopiera texten till urklipp (clipboard)
+    try {
+        await navigator.clipboard.writeText(characterText);
+        console.log("Karaktärsbladet har kopierats till urklipp!");
+        alert("Karaktärsbladet har kopierats!");
+    } catch (err) {
+        console.error('Kunde inte kopiera texten: ', err);
+        alert("Kunde inte kopiera texten. Vänligen prova igen.");
+    }
+}
+
 // Funktion som fyller i startägodelarna
 function loadDefaultPossessions() {
   const defaultText = `
