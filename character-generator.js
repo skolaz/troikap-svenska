@@ -80,9 +80,3 @@ function loadDefaultPossessions() {
   // Sätt in texten i div-elementet
   document.getElementById("possessions").innerHTML = htmlText;
 }
-
-// Anropa funktionen när sidan laddats
-window.onload = function() {
-  loadDefaultPossessions();
-  // Om du har någon annan kod som ska köras när sidan laddas, lägger du den här.
-};
