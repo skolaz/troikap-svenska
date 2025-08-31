@@ -1,5 +1,5 @@
-- [Framsida (Villkor & Terms)](FRAMSIDA.md)
 - [Karaktärsskapande](karaktärsskapande.md)
+- [Enkelt k-blad](karaktarsgenerator.md)
 - [Bakgrundstabellen](bakgrundstabellen.md)
 - [Regler 1-11](regler1-11.md)
 - [ADVANCED SKILLS](avanceradeSKILL.md)
@@ -12,7 +12,5 @@
 - [Husregler](husregler.md)
 ---  
 - [Karaktärsblad](http://candy-thistle.surge.sh/)
-- [Enkelt k-blad](karaktarsgenerator.md)
-- [Initiative Troika](initiative-tracker.md)
 - [Auto Roll Tables](https://autorolltables.github.io/)
 - [Cheat Sheet](cheatsheet.md)
