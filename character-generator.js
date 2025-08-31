@@ -23,12 +23,13 @@ function slumpaKaraktar() {
 }
 
 function extractContentByTitle(markdownText, title) {
-    // Regex som hittar rubriken och allt som kommer efter
-    const regex = new RegExp(`(^#\\s*${title}[\\s\\S]*?)(?=\\n#|$)`, 'm');
+    // Skapa ett dynamiskt regex-uttryck
+    // Använd 'g' för att hitta alla rubriker.
+    const regex = new RegExp(`^#\\s*${title}[\\s\\S]*?(?=\\n#|$)`, 'm');
     const match = markdownText.match(regex);
   
     if (match) {
-        // Returnera hela den matchande strängen, inklusive rubriken.
+        // match[0] innehåller hela den matchade strängen, inklusive rubriken och innehållet.
         return match[0].trim();
     }
     return "";
