@@ -300,8 +300,7 @@ Förmåga
 Ätare är immuna mot vardagliga intagna gifter. De kan också identifiera vilket föremål som helst om det äts, få kunskap om dess material, dess ursprung (om det är troligt bekant) och dess magiska egenskaper på ett framgångsrikt Gastrologitest även om föremålet måste tuggas noggrant, inte bara sväljas och godkännas. Detta ger inte särskild immunitet mot några effekter som föremålet kan ha.  
 
 # 36 Aphandlare
-Livet på Väggen är hårt. Man är aldrig mer än några meter från ett oändligt fall, men de otrygga byarna behöver fortfarande äta. Det är här du kommer in med dina Ätbara Apor (den
-distinktionen är enbart för att lockelse eftersom alla apor naturligtvis är ätbara). Du brukade tillbringa dagar i sträck med att dingla dina fötter utanför världens utkant, och vakta över ditt tjattrande boskap medan de kilade hit och dit, men det fanns ingen framtid för apkött. Du ville mycket mer och så klev av. Eller så ramlade du av. Hur som helst är du och några olyckliga apor här nu och det är allt som betyder något.
+Livet på Väggen är hårt. Man är aldrig mer än några meter från ett oändligt fall, men de otrygga byarna behöver fortfarande äta. Det är här du kommer in med dina Ätbara Apor (den distinktionen är enbart för att lockelse eftersom alla apor naturligtvis är ätbara). Du brukade tillbringa dagar i sträck med att dingla dina fötter utanför världens utkant, och vakta över ditt tjattrande boskap medan de kilade hit och dit, men det fanns ingen framtid för apkött. Du ville mycket mer och så klev av. Eller så ramlade du av. Hur som helst är du och några olyckliga apor här nu och det är allt som betyder något.
 
 Ägodelar  
 Apklubba.  
