@@ -23,27 +23,6 @@ function slumpaKaraktar() {
     loadDefaultPossessions();
 }
 
-// Funktion för att extrahera innehållet från en given rubrik
-function extractContentByTitle(markdownText, title) {
-    const tempDiv = document.createElement('div');
-    tempDiv.innerHTML = marked(markdownText);
-    
-    let content = "";
-    const headers = tempDiv.querySelectorAll('h1');
-    for (const header of headers) {
-        if (header.textContent.trim() === title.trim()) {
-            let nextElement = header.nextElementSibling;
-            while (nextElement && nextElement.tagName !== 'H1') {
-                content += nextElement.outerHTML;
-                nextElement = nextElement.nextElementSibling;
-            }
-            break;
-        }
-    }
-    return content;
-}
-
-// Funktion för att slumpa fram och ladda en bakgrund
 function slumpaBakgrund() {
     fetch('bakgrundstabellen.md')
         .then(response => {
@@ -53,23 +32,23 @@ function slumpaBakgrund() {
             return response.text();
         })
         .then(markdownText => {
-            const tempDiv = document.createElement('div');
-            tempDiv.innerHTML = marked(markdownText);
-
-            const titles = Array.from(tempDiv.querySelectorAll('h1')).map(h1 => h1.textContent.trim());
+            // Dela upp hela dokumentet i avsnitt baserat på rubriker
+            const sections = markdownText.split(/(?=^#\s*.+)/gm);
             
-            if (!titles || titles.length === 0) {
+            // Filtrera bort tomma strängar och den första (som ofta är tom)
+            const validSections = sections.filter(section => section.trim() !== '');
+
+            if (validSections.length === 0) {
                 document.getElementById('background').innerHTML = "Kunde inte hitta några bakgrunder i filen.";
                 return;
             }
 
-            const randomIndex = Math.floor(Math.random() * titles.length);
-            const randomTitle = titles[randomIndex];
-
-            const backgroundContent = extractContentByTitle(markdownText, randomTitle);
+            // Slumpa ett index från de giltiga avsnitten
+            const randomIndex = Math.floor(Math.random() * validSections.length);
+            const randomSection = validSections[randomIndex];
             
-            // Sätt in rubriken och det extraherade innehållet i bakgrunds-div:en.
-            document.getElementById('background').innerHTML = `<h1>${randomTitle}</h1>${backgroundContent}`;
+            // Konvertera det slumpade avsnittet till HTML och sätt in i div:en
+            document.getElementById('background').innerHTML = marked(randomSection);
         })
         .catch(error => {
             console.error("Fel vid laddning av bakgrunder:", error);
