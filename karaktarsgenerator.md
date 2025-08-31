@@ -26,5 +26,5 @@ Här kan du skapa din karaktär genom att slumpa fram dina initiala värden. Ta 
 <div id="possessions" contenteditable="true" class="editable-field"></div>
 <br><br>
     <button onclick="slumpaKaraktar()">Skapa karaktär!</button>
-    <button onclick="printCharacterSheet()">Skriv ut/Spara</button>
+    <button onclick="printCharacterSheet()">Skriv ut/Spara (stäng menyn om den ska vara rakare)</button>
 </div>
