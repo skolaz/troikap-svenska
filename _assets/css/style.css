@@ -8,7 +8,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #name {
-  width: 300px;
+  width: 250px;
+}
+
+#background {
+    font-size: 0.9em; /* Justera värdet efter vad som passar dig, 1em är standard */
+}
+
+#possessions {
+    font-size: 0.9em; /* Samma här, justera värdet */
 }
 
 .search .input-wrap {
