@@ -599,7 +599,7 @@ Läsglasögon i ett robust fodral (du kan inte läsa utan dem).
 Litet svärd.  
 Paket med ljus och tändstickor.  
 Skrivmaterial.  
-Tidning.  
+Journal.  
 
 Avancerade SKILLS     
 2 Utvärdera  
