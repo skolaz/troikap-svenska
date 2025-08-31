@@ -70,7 +70,7 @@ function slumpaBakgrund() {
 function loadDefaultPossessions() {
   const defaultText = `
 - 2d6 silvermynt
-- en kniv
+- en kniv (2 / 2 / 2 / 2 / 4 / 8 / 10)
 - en lykta och oljeflaska
 - en ryggsäck
 - 6 provianter
