@@ -23,14 +23,13 @@ function slumpaKaraktar() {
 }
 
 function extractContentByTitle(markdownText, title) {
-    // Regex som hittar rubriken (t.ex. "# 11 Ivrig jätte av Corda")
-    // och sedan fångar allt som kommer efter, fram till nästa rubrik eller slutet av filen.
+    // Regex som hittar rubriken och allt som kommer efter
     const regex = new RegExp(`(^#\\s*${title}[\\s\\S]*?)(?=\\n#|$)`, 'm');
     const match = markdownText.match(regex);
   
     if (match) {
-      // Returnera allt innehåll som hittades
-      return match[1].trim();
+        // Returnera hela den matchande strängen, inklusive rubriken.
+        return match[0].trim();
     }
     return "";
 }
