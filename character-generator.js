@@ -1,5 +1,4 @@
 function slumpaKaraktar() {
-    // Funktion för att rulla tärning
     function rollDice(diceCount, diceSides) {
         let total = 0;
         for (let i = 0; i < diceCount; i++) {
@@ -8,68 +7,80 @@ function slumpaKaraktar() {
         return total;
     }
 
-    // Beräkna SKILL: Rulla 1d3 + 3
     const skill = rollDice(1, 3) + 3;
-
-    // Beräkna STAMINA: Rulla 2d6 + 12
     const stamina = rollDice(2, 6) + 12;
-
-    // Beräkna LUCK: Rulla 1d6 + 6
     const luck = rollDice(1, 6) + 6;
 
-    // Uppdatera input-fälten på sidan
-    document.getElementById("skill").value = skill;
-    document.getElementById("stamina").value = stamina;
-    document.getElementById("luck").value = luck;
+    // Uppdatera div-elementen med innerHTML
+    document.getElementById("skill").innerHTML = skill;
+    document.getElementById("stamina").innerHTML = stamina;
+    document.getElementById("luck").innerHTML = luck;
+
     // Anropa funktionen för att slumpa en bakgrund
     slumpaBakgrund();
 }
 
-function printCharacterSheet() {
-  window.print();
+function extractContentByTitle(markdownText, title) {
+    const regex = new RegExp(`(^#\\s*${title}[\\s\\S]*?)(?=\\n#|$)`, 'm');
+    const match = markdownText.match(regex);
+  
+    if (match) {
+        return match[1].trim();
+    }
+    return "";
 }
 
-function extractContentByTitle(markdownText, title) {
-  // Regex som hittar rubriken (t.ex. "# 11 Ivrig jätte av Corda")
-  // och sedan fångar allt som kommer efter, fram till nästa rubrik eller slutet av filen.
-  const regex = new RegExp(`(^#\\s*${title}[\\s\\S]*?)(?=\\n#|$)`, 'm');
-  const match = markdownText.match(regex);
-  
-  if (match) {
-    return match[1].trim();
-  }
-  return "";
+function printCharacterSheet() {
+    window.print();
 }
 
 function slumpaBakgrund() {
-  fetch('bakgrundstabellen.md')
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Kunde inte ladda filen med bakgrunder.');
-      }
-      return response.text();
-    })
-    .then(markdownText => {
-      // Hitta alla rubriker i filen.
-      const titles = markdownText.match(/^#\s*.+$/gm);
+    fetch('bakgrundstabellen.md')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Kunde inte ladda filen med bakgrunder.');
+            }
+            return response.text();
+        })
+        .then(markdownText => {
+            const titles = markdownText.match(/^#\s*.+$/gm);
 
-      if (!titles || titles.length === 0) {
-          document.getElementById('background').innerHTML = "Kunde inte hitta några bakgrunder i filen.";
-          return;
-      }
+            if (!titles || titles.length === 0) {
+                document.getElementById('background').innerHTML = "Kunde inte hitta några bakgrunder i filen.";
+                return;
+            }
 
-      // Slumpa fram ett nummer mellan 0 och antalet rubriker.
-      const randomIndex = Math.floor(Math.random() * titles.length);
-      const randomTitle = titles[randomIndex].replace(/^#\s*/, '');
+            const randomIndex = Math.floor(Math.random() * titles.length);
+            const randomTitle = titles[randomIndex].replace(/^#\s*/, '');
 
-      // Extrahera hela kapitlet (med rubriken) baserat på den slumpade rubriken.
-      const backgroundContent = extractContentByTitle(markdownText, randomTitle);
-
-      // Konvertera Markdown till HTML och sätt in det i din div.
-      document.getElementById('background').innerHTML = marked(backgroundContent);
-    })
-    .catch(error => {
-      console.error("Fel vid laddning av bakgrunder:", error);
-      document.getElementById('background').innerHTML = "Kunde inte ladda bakgrunden.";
-    });
+            const backgroundContent = extractContentByTitle(markdownText, randomTitle);
+            
+            // Konvertera Markdown till HTML och sätt in det i div:en
+            document.getElementById('background').innerHTML = marked(backgroundContent);
+        })
+        .catch(error => {
+            console.error("Fel vid laddning av bakgrunder:", error);
+            document.getElementById('background').innerHTML = "Kunde inte ladda bakgrunden.";
+        });
 }
+
+// Funktion som fyller i startägodelarna
+function loadDefaultPossessions() {
+  const defaultText = `
+- 2d6 silvermynt
+- en kniv
+- en lykta och oljeflaska
+- en ryggsäck
+- 6 provianter
+  `;
+  // Konvertera texten till HTML (för att hantera radbrytningar)
+  const htmlText = marked(defaultText);
+  // Sätt in texten i div-elementet
+  document.getElementById("possessions").innerHTML = htmlText;
+}
+
+// Anropa funktionen när sidan laddats
+window.onload = function() {
+  loadDefaultPossessions();
+  // Om du har någon annan kod som ska köras när sidan laddas, lägger du den här.
+};
