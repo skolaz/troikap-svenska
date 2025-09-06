@@ -12,11 +12,11 @@
 - [Husregler](husregler.md)
 - [Cheat Sheet](cheatsheet.md)
 ---
-Generatorer:
+ Generatorer:
 - [Enkelt k-blad](karaktarsgenerator.md)
 - [Orakel](orakel/orakel.md) 
 - [NPC](npc/npcgen.md)
 ---
-Andra hemsidor:
+ Andra hemsidor:
 - [Karaktärsblad](http://candy-thistle.surge.sh/)
 - [Auto Roll Tables](https://autorolltables.github.io/)
