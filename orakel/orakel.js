@@ -118,7 +118,8 @@ function discoverMeaning(type) {
             }
         }
         
-        answerDiv.innerHTML = `Resultat av 1d100: **${roll}**<br>Betydelse: **${result}**`;
+        answerDiv.innerHTML = `Resultat av 1d100: ***${roll}**<br>Betydelse: **${result.text}**`;
+
     }, 2000);
 }
 
