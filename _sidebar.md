@@ -14,8 +14,8 @@
 ---
 Generatorer:
 - [Enkelt k-blad](karaktarsgenerator.md)
-- [Orakel] (orakel/orakel.md) 
-- [NPC] (npc/npcgen.md)
+- [Orakel] (orakel/orakel.html) 
+- [NPC] (npc/npcgen.html)
 ---
 Andra hemsidor:
 - [Karaktärsblad](http://candy-thistle.surge.sh/)
