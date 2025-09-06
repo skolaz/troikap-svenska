@@ -1,7 +1,7 @@
 // Datalistor för att slumpa en NPC
 const npcFirstNames = [
     "Einar", "Astrid", "Gunnar", "Freja", "Hjalmar", "Ingrid", 
-    "Ragnar", "Sif", "Torsten", "Brynhild", "Björn", "Tyra"
+    "Ragnar", "Sif", "Torsten", "Brynhild", "Björn", "Tyra", "Frida", "Fanny", "Fatima", "Adrian", "Atonia", "Albert"
 ];
 
 const npcLastNames = [
@@ -16,7 +16,7 @@ const npcOccupations = [
 
 const dnaDistinctions = [
     "Ärrig", "Väldigt lång", "Pratglad", "Tystlåten", "Mycket gammal",
-    "Luktar konstigt", "Envis", "Har ett husdjur", "Saknar ett öga", "Kort"
+    "Luktar konstigt", "Envis", "Har ett husdjur", "Saknar ett öga", "Kort", "Skägg", "Ovanliga deformationer"
 ];
 
 const dnaNeeds = [
@@ -102,7 +102,7 @@ function slumpaNPCBakgrund() {
         });
 }
 
-// Tabell 1: NPC Egneskap (Modifier)
+// Tabell 1: NPC Egenskap (Modifier)
 const npcEgenskap = [
     { range: [1, 1], text: "överflödig" }, { range: [2, 2], text: "beroende" }, { range: [3, 3], text: "konformist" },
     { range: [4, 4], text: "förkastlig" }, { range: [5, 5], text: "förnuftig" }, { range: [6, 6], text: "oövade" },
@@ -110,7 +110,7 @@ const npcEgenskap = [
     { range: [10, 10], text: "försumlig" }, { range: [11, 11], text: "livlig" }, { range: [12, 12], text: "uppriktig" },
     { range: [13, 13], text: "idealistisk" }, { range: [14, 14], text: "icke stödjande" }, { range: [15, 15], text: "rationell" },
     { range: [16, 16], text: "grov" }, { range: [17, 17], text: "dum" }, { range: [18, 18], text: "slug" },
-    { range: [19, 19], text: "delightful" }, { range: [20, 20], text: "snål" }, { range: [21, 21], text: "inept" },
+    { range: [19, 19], text: "underbar" }, { range: [20, 20], text: "snål" }, { range: [21, 21], text: "inept" },
     { range: [22, 22], text: "banal" }, { range: [23, 23], text: "logisk" }, { range: [24, 24], text: "subtil" },
     { range: [25, 25], text: "respektabel" }, { range: [26, 26], text: "ond" }, { range: [27, 27], text: "lat" },
     { range: [28, 28], text: "pessimistisk" }, { range: [29, 29], text: "allvarlig" }, { range: [30, 30], text: "vanemässig" },
