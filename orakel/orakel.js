@@ -37,7 +37,7 @@ function askOracle(oddsCategory) {
             result = oracleAnswers.exceptionalNo;
         }
         
-        answerDiv.innerHTML = `Resultat av 1d100: **${roll}**.<br>Svar: **${result}**`;
+        answerDiv.innerHTML = `Resultat av 1d100: **${roll}**.<br>Svar: **${result.text}**`;
     }, 2000);
 }
 
