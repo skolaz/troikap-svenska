@@ -1,59 +1,59 @@
 // Datalistor för att slumpa en NPC
 const npcFirstNames = [
-    "Einar", "Astrid", "Gunnar", "Freja", "Hjalmar", "Ingrid", 
-    "Ragnar", "Sif", "Torsten", "Brynhild", "Björn", "Tyra", "Frida", 
+    "Einar", "Astrid", "Gunnar", "Freja", "Hjalmar", "Ingrid",
+    "Ragnar", "Sif", "Torsten", "Brynhild", "Björn", "Tyra", "Frida",
     "Fanny", "Fatima", "Adrian", "Atonia", "Albert",
-    "Agda", "Alvy", "Augusta", "Amalia", "Beata", "Bodil", "Britta", "Birgitta", 
-    "Cindy", "Corinne", "Dagny", "Dagfrid", "Doris", "Dora", "Elna", "Evelyn", 
-    "Evy", "Elsa", "Estrid", "Elisabeth", "Frida", "Fanny", "Gudrun", "Gullvor", 
-    "Gunborg", "Gunilla", "Harriet", "Hedda", "Hedvig", "Hjördis", "Ingalill", 
-    "Ingrid", "Ingegerd", "Irene", "Irja", "Jeanette", "Jill", "Karla", "Katarina", 
-    "Kristin", "Kerstin", "Lillian", "Lillemor", "Lena", "Majken", "Majvor", 
-    "Marlene", "Mona", "Märta", "Nancy", "Ofelia", "Paulina", "Pernilla", "Ragnhild", 
-    "Rut", "Rakel", "Sylvia", "Solveig", "Sigrid", "Siv", "Sonja", "Torborg", 
-    "Tanja", "Tilde", "Ulla", "Ulrika", "Ursula", "Vega", "Vendela", "Vera", 
-    "Vivian", "Viveka", "Ylva", "Yvonne", "Åsa", "Abraham", "August", "Arne", "Axel", "Algot", "Alfred", "Bernhard", "Bertil", 
-    "Björn", "Bo", "Bror", "Conrad", "Claes", "Dag", "Erik", "Evert", "Esbjörn", 
-    "Fritjof", "Folke", "Gunnar", "Gösta", "Harald", "Holger", "Henning", "Inge", 
-    "Ivar", "Ingemar", "Ingvar", "Jon", "Josef", "Julius", "Jerker", "Karl", 
-    "Kenneth", "Kjell", "Kurt", "Knut", "Leif", "Lennart", "Mauritz", "Nils", 
-    "Nicholas", "Olof", "Otto", "Ove", "Per", "Rune", "Roland", "Ralf", 
-    "Rikard", "Rolf", "Sten", "Sture", "Sigvard", "Sven", "Stig", "Staffan", 
-    "Sigbjörn", "Thorsten", "Ture", "Torbjörn", "Tage", "Tor", "Torborg", 
-    "Tryggve", "Ulf", "Valter", "Vidar", "Vilgot", "Valdemar", "Willhelm", 
+    "Agda", "Alvy", "Augusta", "Amalia", "Beata", "Bodil", "Britta", "Birgitta",
+    "Cindy", "Corinne", "Dagny", "Dagfrid", "Doris", "Dora", "Elna", "Evelyn",
+    "Evy", "Elsa", "Estrid", "Elisabeth", "Frida", "Fanny", "Gudrun", "Gullvor",
+    "Gunborg", "Gunilla", "Harriet", "Hedda", "Hedvig", "Hjördis", "Ingalill",
+    "Ingrid", "Ingegerd", "Irene", "Irja", "Jeanette", "Jill", "Karla", "Katarina",
+    "Kristin", "Kerstin", "Lillian", "Lillemor", "Lena", "Majken", "Majvor",
+    "Marlene", "Mona", "Märta", "Nancy", "Ofelia", "Paulina", "Pernilla", "Ragnhild",
+    "Rut", "Rakel", "Sylvia", "Solveig", "Sigrid", "Siv", "Sonja", "Torborg",
+    "Tanja", "Tilde", "Ulla", "Ulrika", "Ursula", "Vega", "Vendela", "Vera",
+    "Vivian", "Viveka", "Ylva", "Yvonne", "Åsa", "Abraham", "August", "Arne", "Axel", "Algot", "Alfred", "Bernhard", "Bertil",
+    "Björn", "Bo", "Bror", "Conrad", "Claes", "Dag", "Erik", "Evert", "Esbjörn",
+    "Fritjof", "Folke", "Gunnar", "Gösta", "Harald", "Holger", "Henning", "Inge",
+    "Ivar", "Ingemar", "Ingvar", "Jon", "Josef", "Julius", "Jerker", "Karl",
+    "Kenneth", "Kjell", "Kurt", "Knut", "Leif", "Lennart", "Mauritz", "Nils",
+    "Nicholas", "Olof", "Otto", "Ove", "Per", "Rune", "Roland", "Ralf",
+    "Rikard", "Rolf", "Sten", "Sture", "Sigvard", "Sven", "Stig", "Staffan",
+    "Sigbjörn", "Thorsten", "Ture", "Torbjörn", "Tage", "Tor", "Torborg",
+    "Tryggve", "Ulf", "Valter", "Vidar", "Vilgot", "Valdemar", "Willhelm",
     "Yngve", "Zakarias", "Åke", "Örjan"
 ];
 
 const npcLastNames = [
-    "Järnhand", "Vargtand", "Stormsköld", "Drakdräparen", "Bäckström", 
-    "Svartskog", "Gråsten", "Björnsson", "Ulvdotter", "Eldstål", "Långfot", 
-    "Abboten", "Abrahamsson", "Bokhållare", "Bagare", "Trappräcke", "Barlow", 
-    "Laggmakare", "Benedikt", "Bentleysson", "Bokbindare", "Svart", "Svartbrunn", 
-    "Bågskytt", "Bredbyn", "Brinkmannen", "Bäckström", "Brun", "Bryant", 
-    "Källarmästare", "Kadetten", "Cahill", "Stolsryttare", "Chaney", "Klarsson", 
-    "Kolon", "Kollinsson", "Tunnbindare", "Coombs", "Cortes", "Kors", "Davisson", 
-    "Smal", "Diaz", "Dixon", "Dominguez", "Edwardsson", "Emery", "Evansson", 
-    "Farväl", "Feliz", "Fiskare", "Skogsman", "Fågeljägare", "Franz", "Friherre", 
-    "Fredag", "Garcia", "Gonzalez", "God", "Graham", "Grönman", "Hallen", 
-    "Hamiltone", "Tuff", "Harpare", "Hendriksson", "Hönan", "Henryson", 
-    "Hernandez", "Hettler", "Kullen", "Holt", "Jacksson", "Jamesson", "Jonsson", 
-    "Jonstorp", "Jonsson", "Kennedy", "Kungen", "Kungensgård", "Knowles", 
-    "Kolar", "Larsson", "Lee", "Lewisson", "Lloyd", "Lopez", "Låg", 
-    "MakFarlansson", "Markum", "Kärrman", "Martinson", "Mateer", "Mattsson", 
-    "Mayer", "Kryddmästare", "MakDonald", "MakGrath", "Merion", "Metermann", 
-    "Mjölnare", "Morrison", "Sjöfart", "Ortiz", "Palmfarare", "Perez", 
-    "Petersson", "Phelps", "Pierca", "Pierre", "Portvakt", "Krukmakare", 
-    "Ramirez", "Ricker", "Kackerlacka", "Robinsson", "Rodriguez", "Rogers", 
-    "Roman", "Roy", "Russo", "Sandersson", "Smed", "Spangler", "Spencer", 
-    "Sullivan", "Stenåker", "Stål", "Stefanisson", "Thomasson", "Thomasson", 
-    "Tibbs", "Tildensson", "Torres", "Tracey", "Vaknaåker", "Valden", "Wallace", 
-    "Waltersson", "Vaktare", "Vävare", "Brännman", "Vit", "Flätaren", "Wickett", 
+    "Järnhand", "Vargtand", "Stormsköld", "Drakdräparen", "Bäckström",
+    "Svartskog", "Gråsten", "Björnsson", "Ulvdotter", "Eldstål", "Långfot",
+    "Abboten", "Abrahamsson", "Bokhållare", "Bagare", "Trappräcke", "Barlow",
+    "Laggmakare", "Benedikt", "Bentleysson", "Bokbindare", "Svart", "Svartbrunn",
+    "Bågskytt", "Bredbyn", "Brinkmannen", "Bäckström", "Brun", "Bryant",
+    "Källarmästare", "Kadetten", "Cahill", "Stolsryttare", "Chaney", "Klarsson",
+    "Kolon", "Kollinsson", "Tunnbindare", "Coombs", "Cortes", "Kors", "Davisson",
+    "Smal", "Diaz", "Dixon", "Dominguez", "Edwardsson", "Emery", "Evansson",
+    "Farväl", "Feliz", "Fiskare", "Skogsman", "Fågeljägare", "Franz", "Friherre",
+    "Fredag", "Garcia", "Gonzalez", "God", "Graham", "Grönman", "Hallen",
+    "Hamiltone", "Tuff", "Harpare", "Hendriksson", "Hönan", "Henryson",
+    "Hernandez", "Hettler", "Kullen", "Holt", "Jacksson", "Jamesson", "Jonsson",
+    "Jonstorp", "Jonsson", "Kennedy", "Kungen", "Kungensgård", "Knowles",
+    "Kolar", "Larsson", "Lee", "Lewisson", "Lloyd", "Lopez", "Låg",
+    "MakFarlansson", "Markum", "Kärrman", "Martinson", "Mateer", "Mattsson",
+    "Mayer", "Kryddmästare", "MakDonald", "MakGrath", "Merion", "Metermann",
+    "Mjölnare", "Morrison", "Sjöfart", "Ortiz", "Palmfarare", "Perez",
+    "Petersson", "Phelps", "Pierca", "Pierre", "Portvakt", "Krukmakare",
+    "Ramirez", "Ricker", "Kackerlacka", "Robinsson", "Rodriguez", "Rogers",
+    "Roman", "Roy", "Russo", "Sandersson", "Smed", "Spangler", "Spencer",
+    "Sullivan", "Stenåker", "Stål", "Stefanisson", "Thomasson", "Thomasson",
+    "Tibbs", "Tildensson", "Torres", "Tracey", "Vaknaåker", "Valden", "Wallace",
+    "Waltersson", "Vaktare", "Vävare", "Brännman", "Vit", "Flätaren", "Wickett",
     "Williamsson", "Villman", "Vilsson", "Träman", "Smed", "Zane"
 ];
 
 const npcOccupations = [
-    "Alkemist", "Bokhandlare", "Jägare", "Hantverkare", "Smed", 
-    "Handelsman", "Skeppare", "Sångare", "Riddare", "Tjuv", "Sökare", 
+    "Alkemist", "Bokhandlare", "Jägare", "Hantverkare", "Smed",
+    "Handelsman", "Skeppare", "Sångare", "Riddare", "Tjuv", "Sökare",
     "Alkemisk smed", "Astro-fysiker", "Bio-magiker", "Cyborg-präst",
     "Dimensional resenär", "Drönar-domptör", "Eterisk kartograf",
     "Exo-jägare", "Fantom-tjuv", "Galaktisk handelsman",
@@ -89,7 +89,7 @@ const npcOccupations = [
 
 const dnaDistinctions = [
     "Ärrig", "Väldigt lång", "Pratglad", "Tystlåten", "Mycket gammal",
-    "Luktar konstigt", "Envis", "Har ett husdjur", "Saknar ett öga", "Kort", 
+    "Luktar konstigt", "Envis", "Har ett husdjur", "Saknar ett öga", "Kort",
     "Skägg", "Ovanliga deformationer", "Har en tatuering av en solnedgång", "Haltar lätt", "Talar med rimmande vers",
     "Luktar av kaffe och gammalt papper", "Alltid klädd i lila", "Bär på en stor nyckelknippa",
     "Har ett nervöst ryck i ena ögat", "Rösten är en raspig viskning", "Samlar på små stenar",
@@ -154,78 +154,6 @@ const dnaAgendas = [
     "Är en domare som söker bevis", "Försöker förhindra en profetia", "Söker sin tvilling",
     "Har en hemlig pakt med ett uråldrigt väsen", "Vill utrota en specifik art"
 ];
-
-// Ny funktion för att slumpa en NPC
-function slumpaNPC() {
-    // Funktion för att rulla tärning (finns redan i din fil)
-    function rollDice(diceCount, diceSides) {
-        let total = 0;
-        for (let i = 0; i < diceCount; i++) {
-            total += Math.floor(Math.random() * diceSides) + 1;
-        }
-        return total;
-    }
-
-    // Slumpa namn
-    const randomFirstName = npcFirstNames[Math.floor(Math.random() * npcFirstNames.length)];
-    const randomLastName = npcLastNames[Math.floor(Math.random() * npcLastNames.length)];
-    const fullName = `${randomFirstName} ${randomLastName}`;
-
-    // Slumpa stats
-    const skill = rollDice(1, 3) + 3;
-    const stamina = rollDice(2, 6) + 12;
-    const luck = rollDice(1, 6) + 6;
-
-    // Slumpa Yrke
-    const occupation = npcOccupations[Math.floor(Math.random() * npcOccupations.length)];
-
-    // Slumpa DNA
-    const dnaD = dnaDistinctions[Math.floor(Math.random() * dnaDistinctions.length)];
-    const dnaN = dnaNeeds[Math.floor(Math.random() * dnaNeeds.length)];
-    const dnaA = dnaAgendas[Math.floor(Math.random() * dnaAgendas.length)];
-    const dna = `${dnaD} / ${dnaN} / ${dnaA}`;
-
-    // Uppdatera HTML-elementen
-    document.getElementById("npc-name").textContent = fullName;
-    document.getElementById("npc-occupation").textContent = occupation;
-    document.getElementById("npc-dna").textContent = dna;
-    document.getElementById("npc-skill").textContent = skill;
-    document.getElementById("npc-stamina").textContent = stamina;
-    document.getElementById("npc-luck").textContent = luck;
-
-    // Anropa en ny funktion för att slumpa bakgrund, liknande din befintliga funktion
-    slumpaNPCBakgrund();
-}
-
-// Ny funktion för att slumpa bakgrund för NPC
-function slumpaNPCBakgrund() {
-    fetch('bakgrundstabellen.md')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Kunde inte ladda filen med bakgrunder.');
-            }
-            return response.text();
-        })
-        .then(markdownText => {
-            const sections = markdownText.split(/(?=^#\s*.+)/gm);
-            const validSections = sections.filter(section => section.trim() !== '');
-
-            if (validSections.length === 0) {
-                document.getElementById('npc-background').innerHTML = "Kunde inte hitta några bakgrunder i filen.";
-                return;
-            }
-
-            const randomIndex = Math.floor(Math.random() * validSections.length);
-            const randomSection = validSections[randomIndex];
-            
-            // Konvertera det slumpade avsnittet till HTML och sätt in i div:en
-            document.getElementById('npc-background').innerHTML = marked(randomSection);
-        })
-        .catch(error => {
-            console.error("Fel vid laddning av NPC-bakgrund:", error);
-            document.getElementById('npc-background').innerHTML = "Kunde inte ladda bakgrunden.";
-        });
-}
 
 // Tabell 1: NPC Egenskap (Modifier)
 const npcEgenskap = [
@@ -374,7 +302,79 @@ const npcFokusData = [
     "vapen", "föregående scen", "fiende"
 ];
 
-// Funktion för att slumpa fram alla detaljer på en gång
+
+// --- Funktioner för att slumpa och visa data ---
+
+// Funktion för att rulla tärning
+function rollDice(diceCount, diceSides) {
+    let total = 0;
+    for (let i = 0; i < diceCount; i++) {
+        total += Math.floor(Math.random() * diceSides) + 1;
+    }
+    return total;
+}
+
+// Funktion för att slumpa från en lista eller en tabell med intervall
+function slumpaElement(data) {
+    // Om det är en lista med objekt som har 'range' och 'text'
+    if (Array.isArray(data) && data.length > 0 && data[0].hasOwnProperty('range')) {
+        const roll = Math.floor(Math.random() * 100) + 1;
+        const item = data.find(element => roll >= element.range[0] && roll <= element.range[1]);
+        return item ? item.text : "Resultat inte funnet";
+    }
+
+    // Om det är en enkel lista med strängar
+    if (Array.isArray(data) && data.length > 0) {
+        const index = Math.floor(Math.random() * data.length);
+        return data[index];
+    }
+    
+    // Fånga upp oväntade datatyper eller tomma listor
+    return "Ogiltig datatyp eller tom lista för slumpning";
+}
+
+// Funktion för att slumpa uppträdande
+function slumpaUpptradande() {
+    const roll = Math.floor(Math.random() * 100) + 1;
+    const bearing = npcUpptradandeData.find(item => roll >= item.range[0] && roll <= item.range[1]);
+    
+    if (bearing) {
+        const option = bearing.options[Math.floor(Math.random() * bearing.options.length)];
+        return `${bearing.bearing} - ${option}`;
+    }
+    return "Resultat inte funnet";
+}
+
+// --- Huvudfunktioner för knappar ---
+
+// Huvudfunktion för att slumpa en NPC
+function slumpaNPC() {
+    const randomFirstName = npcFirstNames[Math.floor(Math.random() * npcFirstNames.length)];
+    const randomLastName = npcLastNames[Math.floor(Math.random() * npcLastNames.length)];
+    const fullName = `${randomFirstName} ${randomLastName}`;
+
+    const skill = rollDice(1, 3) + 3;
+    const stamina = rollDice(2, 6) + 12;
+    const luck = rollDice(1, 6) + 6;
+
+    const occupation = npcOccupations[Math.floor(Math.random() * npcOccupations.length)];
+
+    const dnaD = dnaDistinctions[Math.floor(Math.random() * dnaDistinctions.length)];
+    const dnaN = dnaNeeds[Math.floor(Math.random() * dnaNeeds.length)];
+    const dnaA = dnaAgendas[Math.floor(Math.random() * dnaAgendas.length)];
+    const dna = `${dnaD} / ${dnaN} / ${dnaA}`;
+
+    document.getElementById("npc-name").textContent = fullName;
+    document.getElementById("npc-occupation").textContent = occupation;
+    document.getElementById("npc-dna").textContent = dna;
+    document.getElementById("npc-skill").textContent = skill;
+    document.getElementById("npc-stamina").textContent = stamina;
+    document.getElementById("npc-luck").textContent = luck;
+
+    slumpaNPCBakgrund();
+}
+
+// Funktion för att slumpa enbart NPC-detaljer
 function slumpaNPCDetaljer() {
     const detailsDiv = document.getElementById("npc-details-result");
     detailsDiv.innerHTML = "NPC-generatorn arbetar...";
@@ -399,21 +399,53 @@ function slumpaNPCDetaljer() {
     }, 500);
 }
 
-// Funktion för att slumpa NPC egenskap
+
+// Funktion för att slumpa NPC bakgrund
+function slumpaNPCBakgrund() {
+    // Din befintliga kod för att ladda och visa bakgrund
+    fetch('bakgrundstabellen.md')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Kunde inte ladda filen med bakgrunder.');
+            }
+            return response.text();
+        })
+        .then(markdownText => {
+            const sections = markdownText.split(/(?=^#\s*.+)/gm);
+            const validSections = sections.filter(section => section.trim() !== '');
+
+            if (validSections.length === 0) {
+                document.getElementById('npc-background').innerHTML = "Kunde inte hitta några bakgrunder i filen.";
+                return;
+            }
+
+            const randomIndex = Math.floor(Math.random() * validSections.length);
+            const randomSection = validSections[randomIndex];
+
+            // Använd `marked` för att konvertera Markdown till HTML
+            document.getElementById('npc-background').innerHTML = marked(randomSection);
+        })
+        .catch(error => {
+            console.error("Fel vid laddning av NPC-bakgrund:", error);
+            document.getElementById('npc-background').innerHTML = "Kunde inte ladda bakgrunden.";
+        });
+}
+
+
+// --- Funktioner för enskilda knappar ---
+
 function slumpaNPCEgenskap() {
     const resultDiv = document.getElementById("npc-details-result");
     const egenskap = slumpaElement(npcEgenskap);
     resultDiv.innerHTML = `<b>Egenskap:</b> ${egenskap}`;
 }
 
-// Funktion för att slumpa NPC yrke
 function slumpaNPCYrke() {
     const resultDiv = document.getElementById("npc-details-result");
     const yrke = slumpaElement(npcYrke);
     resultDiv.innerHTML = `<b>Yrke:</b> ${yrke}`;
 }
 
-// Funktion för att slumpa motivation (verb + substantiv)
 function slumpaNPCMotivation() {
     const resultDiv = document.getElementById("npc-details-result");
     const verb = slumpaElement(npcMotivationVerb);
@@ -421,46 +453,24 @@ function slumpaNPCMotivation() {
     resultDiv.innerHTML = `<b>Motivation:</b> ${verb} ${noun}`;
 }
 
-// Funktion för att slumpa samtalshumör
 function slumpaNPCHumör() {
     const resultDiv = document.getElementById("npc-details-result");
     const humör = slumpaElement(npcSamtalshumör);
     resultDiv.innerHTML = `<b>Samtalshumör:</b> ${humör}`;
 }
 
-// Funktion för att slumpa uppträdande
 function slumpaNPCUppträdande() {
     const resultDiv = document.getElementById("npc-details-result");
     const upptradande = slumpaUpptradande();
     resultDiv.innerHTML = `<b>Uppträdande:</b> ${upptradande}`;
 }
 
-// Funktion för att slumpa fokus
 function slumpaNPCFokus() {
     const resultDiv = document.getElementById("npc-details-result");
     const fokus = slumpaElement(npcFokusData);
     resultDiv.innerHTML = `<b>Fokus:</b> ${fokus}`;
 }
 
-// Funktion för att slumpa från en lista eller en tabell med intervall
-function slumpaElement(data) {
-    if (Array.isArray(data)) {
-        // Om det är en enkel lista med strängar (t.ex. npcYrke)
-        const index = Math.floor(Math.random() * data.length);
-        return data[index];
-    } else if (Array.isArray(data) && data[0] && data[0].hasOwnProperty('range')) {
-        // Om det är en lista med objekt som har 'range' och 'text' (t.ex. npcEgenskap)
-        const roll = Math.floor(Math.random() * 100) + 1;
-        const item = data.find(element => roll >= element.range[0] && roll <= element.range[1]);
-        return item ? item.text : "Resultat inte funnet";
-    } else {
-        // Fånga upp oväntade datatyper
-        return "Ogiltig datatyp för slumpning";
-    }
-}
-
-// Enkel funktion för att slumpa Power Level
-// Användaren får välja nivå då den är relativ till spelarkaraktären
 function slumpaNPCTal() {
     const resultDiv = document.getElementById("npc-details-result");
     const levels = {
