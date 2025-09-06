@@ -37,7 +37,7 @@ function askOracle(oddsCategory) {
             result = oracleAnswers.exceptionalNo;
         }
         
-        answerDiv.innerHTML = `Resultat av 1d100: **${roll}**.<br>Svar: **${result.text}**`;
+        answerDiv.innerHTML = `Resultat av 1d100: <b>${roll}</b>.<br>Svar: <b>${result}</b>`;
     }, 2000);
 }
 
@@ -118,7 +118,7 @@ function discoverMeaning(type) {
             }
         }
         
-        answerDiv.innerHTML = `Resultat av 1d100: ***${roll}**<br>Betydelse: **${result.text}**`;
+        answerDiv.innerHTML = `Resultat av 1d100: <b>${roll}</b><br>Betydelse: <b>${result}</b>`;
 
     }, 2000);
 }
