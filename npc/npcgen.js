@@ -68,7 +68,7 @@ const npcOccupations = [
     "Temporal agent", "Terrakottasoldat", "Transdimensional kurir",
     "Vakuumdykare", "Väktare av de gamla maskinerna", "Warlock-forskare",
     "Xenobiolog", "Åsk-ingenjör", "Ödes-hackare", "Överlevare",
-    "Överste",  "Astro-arkeolog", "Eko-ingenjör", "Gravitets-tämjare",
+    "Överste", "Astro-arkeolog", "Eko-ingenjör", "Gravitets-tämjare",
     "Klon-uppfödare", "Cyberspirituell ledare", "Hyperrymds-navigatör",
     "Vapen-smide av stjärnstoft", "Tids-jägare", "Dimensions-diplomat",
     "Galaktisk djurskötare", "Kosmisk poet", "Genetisk jägare",
@@ -111,7 +111,7 @@ const dnaDistinctions = [
 
 const dnaNeeds = [
     "Söker hämnd", "Vill ha pengar", "Söker kunskap", "Söker efter ett föremål",
-    "Vill bevisa sig", "Letar efter sin familj", "Behöver en allierad", "Vill ha makt",  "Söker en försvunnen person", "Vill betala en skuld", "Behöver en sällsynt ingrediens",
+    "Vill bevisa sig", "Letar efter sin familj", "Behöver en allierad", "Vill ha makt", "Söker en försvunnen person", "Vill betala en skuld", "Behöver en sällsynt ingrediens",
     "Söker efter ett mytomspunnet djur", "Vill rädda en vän från fångenskap",
     "Behöver skydd från en fiende", "Vill hitta en gömd skatt", "Söker en fristad",
     "Vill återställa ett gammalt släktvapen", "Behöver ett mystiskt vapen",
@@ -136,7 +136,7 @@ const dnaNeeds = [
 const dnaAgendas = [
     "Döljer en hemlighet", "Skyddar någon", "Försöker undvika en konflikt",
     "Planerar ett brott", "Arbetar för en mystisk figur", "Samlar information",
-    "Söker efter en utmaning""Döljer sitt sanna identitet", "Försöker fly från en pakt", "Utför ett uppdrag i smyg",
+    "Söker efter en utmaning", "Döljer sin sanna identitet", "Försöker fly från en pakt", "Utför ett uppdrag i smyg",
     "Försöker rekrytera nya medlemmar till sin sekt", "Sprider falsk information", "Förbereder en revolution",
     "Letar efter en förrädare", "Försöker skydda ett ställe från förstörelse", "Är utsänd för att spionera på spelarna",
     "Söker en magisk plats", "Försöker diskreditera en rival", "Förbereder en hämndaktion",
