@@ -320,27 +320,18 @@ function slumpaNPCFokus() {
 // Funktion för att slumpa från en lista eller en tabell med intervall
 function slumpaElement(data) {
     if (Array.isArray(data)) {
-        // Om det är en enkel lista
+        // Om det är en enkel lista med strängar (t.ex. npcYrke)
         const index = Math.floor(Math.random() * data.length);
         return data[index];
-    } else {
-        // Om det är en lista med objekt med intervall
+    } else if (Array.isArray(data) && data[0] && data[0].hasOwnProperty('range')) {
+        // Om det är en lista med objekt som har 'range' och 'text' (t.ex. npcEgenskap)
         const roll = Math.floor(Math.random() * 100) + 1;
         const item = data.find(element => roll >= element.range[0] && roll <= element.range[1]);
         return item ? item.text : "Resultat inte funnet";
+    } else {
+        // Fånga upp oväntade datatyper
+        return "Ogiltig datatyp för slumpning";
     }
-}
-
-// Specialfunktion för att slumpa Uppträdande med två steg
-function slumpaUpptradande() {
-    const primaryRoll = Math.floor(Math.random() * 100) + 1;
-    const primaryBearing = npcUpptradandeData.find(item => primaryRoll >= item.range[0] && primaryRoll <= item.range[1]);
-    
-    if (primaryBearing) {
-        const secondaryRoll = Math.floor(Math.random() * 10) + 1;
-        return `${primaryBearing.options[secondaryRoll - 1]} (${primaryBearing.bearing})`;
-    }
-    return "Resultat inte funnet.";
 }
 
 // Enkel funktion för att slumpa Power Level
