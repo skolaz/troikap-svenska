@@ -24,7 +24,7 @@
     <button onclick="slumpaNPCDetaljer()">Slumpa alla detaljer</button>
 </p>
 <p>
-    <button onclick="slumpaNPCEgenskap()">Slumpa Egneskap</button>
+    <button onclick="slumpaNPCEgenskap()">Slumpa Egenskap</button>
     <button onclick="slumpaNPCYrke()">Slumpa Yrke</button>
     <button onclick="slumpaNPCMotivation()">Slumpa Motivation</button>
     <button onclick="slumpaNPCTal()">Slumpa Talnivå</button>
