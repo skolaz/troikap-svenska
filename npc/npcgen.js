@@ -1,33 +1,158 @@
 // Datalistor för att slumpa en NPC
 const npcFirstNames = [
     "Einar", "Astrid", "Gunnar", "Freja", "Hjalmar", "Ingrid", 
-    "Ragnar", "Sif", "Torsten", "Brynhild", "Björn", "Tyra", "Frida", "Fanny", "Fatima", "Adrian", "Atonia", "Albert"
+    "Ragnar", "Sif", "Torsten", "Brynhild", "Björn", "Tyra", "Frida", 
+    "Fanny", "Fatima", "Adrian", "Atonia", "Albert",
+    "Agda", "Alvy", "Augusta", "Amalia", "Beata", "Bodil", "Britta", "Birgitta", 
+    "Cindy", "Corinne", "Dagny", "Dagfrid", "Doris", "Dora", "Elna", "Evelyn", 
+    "Evy", "Elsa", "Estrid", "Elisabeth", "Frida", "Fanny", "Gudrun", "Gullvor", 
+    "Gunborg", "Gunilla", "Harriet", "Hedda", "Hedvig", "Hjördis", "Ingalill", 
+    "Ingrid", "Ingegerd", "Irene", "Irja", "Jeanette", "Jill", "Karla", "Katarina", 
+    "Kristin", "Kerstin", "Lillian", "Lillemor", "Lena", "Majken", "Majvor", 
+    "Marlene", "Mona", "Märta", "Nancy", "Ofelia", "Paulina", "Pernilla", "Ragnhild", 
+    "Rut", "Rakel", "Sylvia", "Solveig", "Sigrid", "Siv", "Sonja", "Torborg", 
+    "Tanja", "Tilde", "Ulla", "Ulrika", "Ursula", "Vega", "Vendela", "Vera", 
+    "Vivian", "Viveka", "Ylva", "Yvonne", "Åsa", "Abraham", "August", "Arne", "Axel", "Algot", "Alfred", "Bernhard", "Bertil", 
+    "Björn", "Bo", "Bror", "Conrad", "Claes", "Dag", "Erik", "Evert", "Esbjörn", 
+    "Fritjof", "Folke", "Gunnar", "Gösta", "Harald", "Holger", "Henning", "Inge", 
+    "Ivar", "Ingemar", "Ingvar", "Jon", "Josef", "Julius", "Jerker", "Karl", 
+    "Kenneth", "Kjell", "Kurt", "Knut", "Leif", "Lennart", "Mauritz", "Nils", 
+    "Nicholas", "Olof", "Otto", "Ove", "Per", "Rune", "Roland", "Ralf", 
+    "Rikard", "Rolf", "Sten", "Sture", "Sigvard", "Sven", "Stig", "Staffan", 
+    "Sigbjörn", "Thorsten", "Ture", "Torbjörn", "Tage", "Tor", "Torborg", 
+    "Tryggve", "Ulf", "Valter", "Vidar", "Vilgot", "Valdemar", "Willhelm", 
+    "Yngve", "Zakarias", "Åke", "Örjan"
 ];
 
 const npcLastNames = [
     "Järnhand", "Vargtand", "Stormsköld", "Drakdräparen", "Bäckström", 
-    "Svartskog", "Gråsten", "Björnsson", "Ulvdotter", "Eldstål", "Långfot"
+    "Svartskog", "Gråsten", "Björnsson", "Ulvdotter", "Eldstål", "Långfot", 
+    "Abboten", "Abrahamsson", "Bokhållare", "Bagare", "Trappräcke", "Barlow", 
+    "Laggmakare", "Benedikt", "Bentleysson", "Bokbindare", "Svart", "Svartbrunn", 
+    "Bågskytt", "Bredbyn", "Brinkmannen", "Bäckström", "Brun", "Bryant", 
+    "Källarmästare", "Kadetten", "Cahill", "Stolsryttare", "Chaney", "Klarsson", 
+    "Kolon", "Kollinsson", "Tunnbindare", "Coombs", "Cortes", "Kors", "Davisson", 
+    "Smal", "Diaz", "Dixon", "Dominguez", "Edwardsson", "Emery", "Evansson", 
+    "Farväl", "Feliz", "Fiskare", "Skogsman", "Fågeljägare", "Franz", "Friherre", 
+    "Fredag", "Garcia", "Gonzalez", "God", "Graham", "Grönman", "Hallen", 
+    "Hamiltone", "Tuff", "Harpare", "Hendriksson", "Hönan", "Henryson", 
+    "Hernandez", "Hettler", "Kullen", "Holt", "Jacksson", "Jamesson", "Jonsson", 
+    "Jonstorp", "Jonsson", "Kennedy", "Kungen", "Kungensgård", "Knowles", 
+    "Kolar", "Larsson", "Lee", "Lewisson", "Lloyd", "Lopez", "Låg", 
+    "MakFarlansson", "Markum", "Kärrman", "Martinson", "Mateer", "Mattsson", 
+    "Mayer", "Kryddmästare", "MakDonald", "MakGrath", "Merion", "Metermann", 
+    "Mjölnare", "Morrison", "Sjöfart", "Ortiz", "Palmfarare", "Perez", 
+    "Petersson", "Phelps", "Pierca", "Pierre", "Portvakt", "Krukmakare", 
+    "Ramirez", "Ricker", "Kackerlacka", "Robinsson", "Rodriguez", "Rogers", 
+    "Roman", "Roy", "Russo", "Sandersson", "Smed", "Spangler", "Spencer", 
+    "Sullivan", "Stenåker", "Stål", "Stefanisson", "Thomasson", "Thomasson", 
+    "Tibbs", "Tildensson", "Torres", "Tracey", "Vaknaåker", "Valden", "Wallace", 
+    "Waltersson", "Vaktare", "Vävare", "Brännman", "Vit", "Flätaren", "Wickett", 
+    "Williamsson", "Villman", "Vilsson", "Träman", "Smed", "Zane"
 ];
 
 const npcOccupations = [
     "Alkemist", "Bokhandlare", "Jägare", "Hantverkare", "Smed", 
-    "Handelsman", "Skeppare", "Sångare", "Riddare", "Tjuv", "Sökare"
+    "Handelsman", "Skeppare", "Sångare", "Riddare", "Tjuv", "Sökare", 
+    "Alkemisk smed", "Astro-fysiker", "Bio-magiker", "Cyborg-präst",
+    "Dimensional resenär", "Drönar-domptör", "Eterisk kartograf",
+    "Exo-jägare", "Fantom-tjuv", "Galaktisk handelsman",
+    "Gammatekniker", "Genetisk modifierare", "Holografisk illusionist",
+    "Hyperrymds-skeppare", "Infiltratör", "Kiber-riddare",
+    "Kosmisk spåman", "Kvantmekanisk arkitekt", "Ljus-konstnär",
+    "Mekanisk orakel", "Muta-detektiv", "Nanit-vävare",
+    "Nekro-tekniker", "Neural-kirurg", "Port-väktare",
+    "Psionisk vakt", "Robot-reparatör", "Rymdpirat",
+    "Schaman", "Singularitets-ingenjör", "Skugg-spion",
+    "Släktforskar-hacker", "Stjärnkrigare", "Telepatisk medlare",
+    "Temporal agent", "Terrakottasoldat", "Transdimensional kurir",
+    "Vakuumdykare", "Väktare av de gamla maskinerna", "Warlock-forskare",
+    "Xenobiolog", "Åsk-ingenjör", "Ödes-hackare", "Överlevare",
+    "Överste",  "Astro-arkeolog", "Eko-ingenjör", "Gravitets-tämjare",
+    "Klon-uppfödare", "Cyberspirituell ledare", "Hyperrymds-navigatör",
+    "Vapen-smide av stjärnstoft", "Tids-jägare", "Dimensions-diplomat",
+    "Galaktisk djurskötare", "Kosmisk poet", "Genetisk jägare",
+    "Neural-parasitolog", "Stjärn-kartläsare", "Svävande trädgårdsmästare",
+    "Fantom-healer", "Stjärnskepps-mekaniker", "Eterisk lönnmördare",
+    "Chrono-polis", "Singularitets-skulptör", "Planet-kolonist",
+    "Cybernetisk trollkarl", "Astro-botaniker", "Ritual-hackare",
+    "Kristall-geolog", "Bio-hacker", "Rymd-arkeolog",
+    "Solseglare", "Krypto-lingvist", "Månhandlare",
+    "Asteroid-gruvarbetare", "Meteorolog för mörk materia", "Svävande budbärare",
+    "Robot-etiker", "Kosmisk musiker", "Gravitets-forskare",
+    "Fältmediciner", "Cybernörd", "Stjärnkust-kapten",
+    "Nihilistisk filosof", "Exo-geolog", "Gravitations-konstnär",
+    "Plasma-snickare", "Galaktisk ambassadör", "Stjärn-tränare",
+    "Sub-atomär kurir", "Eterisk snickare", "Vakuum-skepps-byggare",
+    "Rymd-arkeolog", "Skugg-krigare"
 ];
 
 const dnaDistinctions = [
     "Ärrig", "Väldigt lång", "Pratglad", "Tystlåten", "Mycket gammal",
-    "Luktar konstigt", "Envis", "Har ett husdjur", "Saknar ett öga", "Kort", "Skägg", "Ovanliga deformationer"
+    "Luktar konstigt", "Envis", "Har ett husdjur", "Saknar ett öga", "Kort", 
+    "Skägg", "Ovanliga deformationer", "Har en tatuering av en solnedgång", "Haltar lätt", "Talar med rimmande vers",
+    "Luktar av kaffe och gammalt papper", "Alltid klädd i lila", "Bär på en stor nyckelknippa",
+    "Har ett nervöst ryck i ena ögat", "Rösten är en raspig viskning", "Samlar på små stenar",
+    "Bär alltid en hatt", "Har en stor, krokig näsa", "Pratar med sig själv",
+    "Är synsk men nämner det aldrig", "Skriver ned allt i en liten bok", "Har ett falskt leende",
+    "Är ständigt frusen", "Hänger med en arm", "Är vänsterhänt",
+    "Har ett ärr från en gammal duell", "Är en inbiten vegetarian", "Har albinism",
+    "Bär alltid på en karta", "Är livrädd för spindlar", "Har en onaturligt rak hållning",
+    "Har en mycket kraftig dialekt", "Ler sällan", "Är oemotståndlig för barn",
+    "Samlar på skedar", "Är alltid smutsig", "Är en notorisk lögnare",
+    "Har ett glasöga", "Går i sömnen", "Är alltid stressad",
+    "Har ett smittande skratt", "Går aldrig ut i regn", "Bär en gammal medaljong",
+    "Är en mästare på att vissla", "Är rädd för eld", "Har alltid en nött leksak i fickan",
+    "Har en ovanlig ögonfärg", "Äter bara rå mat", "Har en speciell, mystisk symbol på sin utrustning",
+    "Är allergisk mot blommor", "Talar endast med gester", "Har en svaghet för sötsaker",
+    "Har en ologisk fobi", "Är en stor drömmare", "Har en sällsynt sjukdom",
+    "Har en förmåga att härma röster"
 ];
 
 const dnaNeeds = [
     "Söker hämnd", "Vill ha pengar", "Söker kunskap", "Söker efter ett föremål",
-    "Vill bevisa sig", "Letar efter sin familj", "Behöver en allierad", "Vill ha makt"
+    "Vill bevisa sig", "Letar efter sin familj", "Behöver en allierad", "Vill ha makt",  "Söker en försvunnen person", "Vill betala en skuld", "Behöver en sällsynt ingrediens",
+    "Söker efter ett mytomspunnet djur", "Vill rädda en vän från fångenskap",
+    "Behöver skydd från en fiende", "Vill hitta en gömd skatt", "Söker en fristad",
+    "Vill återställa ett gammalt släktvapen", "Behöver ett mystiskt vapen",
+    "Vill bevisa sin oskuld", "Söker efter en hemlig väg", "Behöver hjälp med att bära en last",
+    "Vill hitta en speciell plats", "Behöver pengar för att starta ett företag",
+    "Vill bryta en förbannelse", "Söker en förlorad kärlek", "Behöver en lärare",
+    "Vill överleva en naturkatastrof", "Söker en legendarisk dryck",
+    "Behöver reparera ett viktigt föremål", "Vill hitta en ledare", "Söker en mystisk bok",
+    "Vill hämnas ett svek", "Behöver en tjänst från en mäktig person",
+    "Vill fly från en obehaglig situation", "Söker ett sätt att kommunicera med andar",
+    "Behöver en vägvisare", "Vill beskydda sin by", "Söker en bot för en sjukdom",
+    "Vill ta över en rivaliserande organisation", "Behöver rekrytera medlemmar",
+    "Vill hitta ett stulet konstverk", "Söker sanningen bakom en konspiration",
+    "Behöver hjälp att bygga något", "Vill vinna en tävling", "Söker en magisk lösning",
+    "Behöver skaffa mat till sin familj", "Vill finna en glömd ruin", "Söker en mentor",
+    "Behöver bekräftelse", "Vill skapa en armé", "Söker en allierad för en kupp",
+    "Behöver en förtrollning", "Vill få ett objekt signerat", "Söker en gammal karta",
+    "Behöver ett specifikt material", "Vill ha upprättelse", "Söker en utväg",
+    "Vill förändra historien"
 ];
 
 const dnaAgendas = [
     "Döljer en hemlighet", "Skyddar någon", "Försöker undvika en konflikt",
     "Planerar ett brott", "Arbetar för en mystisk figur", "Samlar information",
-    "Söker efter en utmaning"
+    "Söker efter en utmaning""Döljer sitt sanna identitet", "Försöker fly från en pakt", "Utför ett uppdrag i smyg",
+    "Försöker rekrytera nya medlemmar till sin sekt", "Sprider falsk information", "Förbereder en revolution",
+    "Letar efter en förrädare", "Försöker skydda ett ställe från förstörelse", "Är utsänd för att spionera på spelarna",
+    "Söker en magisk plats", "Försöker diskreditera en rival", "Förbereder en hämndaktion",
+    "Är en testperson för ett farligt experiment", "Leker med andras öden", "Samlar på magiska artefakter",
+    "Letar efter ett sätt att bli odödlig", "Försöker manipulera en mäktig person", "Söker en ny värd för en demon",
+    "Vill förstöra en gammal relik", "Försöker dölja ett misstag", "Har blivit lurad och söker nu den ansvariga",
+    "Förbereder en storm på havet", "Är en spåman som gömmer sin sanna förmåga", "Försöker byta kropp med någon",
+    "Samlar på skatter för sin drake", "Har en tidskänslig uppgift", "Söker efter den sista personen i en blodslinje",
+    "Vill finna en glömd kunskap", "Planerar att bygga en ny civilisation", "Är en lönnmördare med en moralisk kod",
+    "Försöker stänga en portal till en annan dimension", "Är utskickad för att testa hjältar", "Söker en väg ut från sin egen profetia",
+    "Vill sprida ett virus", "Är en kurator för en hemlig historia", "Försöker sabotera en ritual",
+    "Döljer sin koppling till en kriminell organisation", "Söker ett sätt att få en död älskad tillbaka",
+    "Är en överlevande från en gammal katastrof", "Vill ha tillbaka något som har stulits från den", "Försöker ändra sitt förflutna",
+    "Förbereder en ny identitet", "Söker en allierad för en kupp", "Vill bevisa sin teori",
+    "Är en domare som söker bevis", "Försöker förhindra en profetia", "Söker sin tvilling",
+    "Har en hemlig pakt med ett uråldrigt väsen", "Vill utrota en specifik art"
 ];
 
 // Ny funktion för att slumpa en NPC
