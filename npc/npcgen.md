@@ -1,4 +1,5 @@
-
+<script src="//cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="npc/npcgen.js"></script>
 <hr>
 <h2>Slumpa en NPC</h2>
 <p>
