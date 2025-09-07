@@ -49,10 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ascii-art {
-    /* Ta bort eller kommentera bort transform: scale(); */
-    /* transform: scale(0.2); */ 
-    
-    font-size: 10px; /* Börja med t.ex. 10px och justera efter behov */
+    font-size: 5px; /* Börja med t.ex. 10px och justera efter behov */
     font-family: 'monospace', 'Courier New', Courier, sans-serif; /* Viktigt! */
     white-space: pre;
     overflow-x: auto;
