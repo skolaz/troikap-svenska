@@ -51,7 +51,7 @@
 
 | D66 | Trollformel namn | D66 | Trollformel namn |
 |---|---|---|---|
-| 11 | Assassin's Dagger | 41 | Växa |
+| 11 | Lönnmördarens dolk | 41 | Växa |
 | 12 | Animera | 42 | Orkan |
 | 13 | Affix | 43 | Hjälpande händer |
 | 14 | Anta form | 44 | Illusion |
@@ -61,14 +61,14 @@
 | 22 | Förvisa Ande | 52 | Låsa |
 | 23 | Mänsklig | 53 | Språk |
 | 24 | Kackerlacka | 54 | Få att sväva |
-| 25 | Darksee | 55 | Vakt |
+| 25 | Mörkerkoll | 55 | Vakt |
 | 26 | Minska | 56 | Splittras |
 | 31 | Jordbävning | 61 | Sova |
 | 32 | Rädsla | 62 | Åska |
 | 33 | Eldbult | 63 | Tungvrickare |
 | 34 | Blixt | 64 | Ångra |
 | 35 | Framsynt | 65 | Avdelning |
-| 36 | Hitta | 66 | Wall of Power |
+| 36 | Hitta | 66 | Vägg av kraft |
 
 # Opps! / hoppsan!
 
