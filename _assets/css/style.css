@@ -47,3 +47,9 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #555; /* Mörkare kant när rutan är aktiv */
   outline: none; /* Ta bort standard-outline i vissa webbläsare */
 }
+
+.ascii-art {
+    white-space: pre;
+    overflow-x: auto;
+    max-width: 100%;
+}
