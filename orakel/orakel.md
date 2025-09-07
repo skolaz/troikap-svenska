@@ -1,8 +1,9 @@
-<script src="//cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
 <script src="orakel/orakel.js"></script>
 <div class="oracle-container">
     <h4>Fråga Oraclet</h4>
     <p>Hur troligt är det att händelsen inträffar?</p>
+    <p>Knapparna nedan är baserat på Mythic GM Emulator som ger svar utifrån situationen. Är det typ omöjligt att du lyckas? Eller är saken självklar?</p>
     <button onclick="askOracle('Självklar')">Självklar</button>
     <button onclick="askOracle('Nästan självklar')">Nästan självklar</button>
     <button onclick="askOracle('Mycket troligt')">Mycket troligt</button>
@@ -17,6 +18,7 @@
 
 <div class="oracle-container">
     <h4>Upptäck betydelse</h4>
+    <p>Ta först en handling. Vad är det de vill göra?. Sedan ta en beskrivning. Vad beskriver situationen/handlingen?</p>
     <button onclick="discoverMeaning('action')">Slumpa Handling</button>
     <button onclick="discoverMeaning('description')">Slumpa Beskrivning</button>
 </div>
