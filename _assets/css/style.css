@@ -49,10 +49,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ascii-art {
-    transform: scale(0.2); /* Minskar konsten till 70% av sin ursprungliga storlek */
-    transform-origin: top left; /* Ser till att den skalar från toppen och vänster */
-    font-size: 10px; /* Ändra värdet för att minska eller öka storleken */
+    /* Ta bort eller kommentera bort transform: scale(); */
+    /* transform: scale(0.2); */ 
+    
+    font-size: 10px; /* Börja med t.ex. 10px och justera efter behov */
+    font-family: 'monospace', 'Courier New', Courier, sans-serif; /* Viktigt! */
     white-space: pre;
     overflow-x: auto;
     max-width: 100%;
+    
+    /* Nedanstående rader är för att ta bort "spacet nedanför" om det är en effekt av skalan. */
+    /* De kan behövas om det fortfarande finns stora marginaler av annan anledning. */
+    line-height: 1; /* Kompakterar raderna ytterligare */
+    display: inline-block; /* För att elementet ska "krymppa" runt innehållet */
+    vertical-align: top; /* För att justera vertikal position om det behövs */
 }
