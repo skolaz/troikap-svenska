@@ -1,11 +1,7 @@
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
 <script src="odjur/odjur.js"></script>
 
-<details class="accordion">
-<summary># </summary>
-
 # Odjur
-
 <details class="accordion">
 <summary># Alzabo</summary>
   SKILL 10      
