@@ -7,7 +7,7 @@
 - [Trollformler](trollformler.md)
 - [Fiender](fiender.md)
 ---  
-- [Bästiarier](odjur.md)
+- [Bästiarier](odjur/odjur.md)
 - [Tabeller](tabeller.md)
 - [Husregler](husregler.md)
 - [Cheat Sheet](cheatsheet.md)
