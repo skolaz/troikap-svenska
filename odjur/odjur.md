@@ -689,8 +689,6 @@ Byggd på det första imperiets tid, på uppdrag av de andra herrarnas vilja att
 Det är allmänt känt att alla tigrar kommer från tigrarnas palats. Du kanske ser en i en djungel någonstans och tror att de är hemma, kanske föder de till och med upp kattungar och lever rika liv med tiger, men de är lika främmande för den skogen som du eller jag, och kattungarna stjäls alltid från mindre katter. De föddes till fritid, för att förfölja feta små kappor i palatsliknande trädgårdar och för att sola sig i kristallsolarier. Tycka synd om dessa arga djur för de är vilse och inte vana vid dina oförskämda sätt.  
 </details>
 
----
-
 <details class="accordion">
 <summary># Tower Wizard</summary>
 
@@ -699,7 +697,8 @@ Det är allmänt känt att alla tigrar kommer från tigrarnas palats. Du kanske 
 **Initiativ** 3  
 **Skydd** 0  
 **Skador** som vapen  
-**Mien/Humör** - 1 Offensiv  
+**Mien/Humör**
+- 1 Offensiv  
 - 2 Förvirrad  
 - 3 Vänlig  
 - 4 Misstänkt  
