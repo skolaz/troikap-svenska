@@ -49,8 +49,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ascii-art {
-    font-size: 2px; /* Ändra värdet för att minska eller öka storleken */
+    transform: scale(0.2); /* Minskar konsten till 70% av sin ursprungliga storlek */
+    transform-origin: top left; /* Ser till att den skalar från toppen och vänster */
+    font-size: 10px; /* Ändra värdet för att minska eller öka storleken */
     white-space: pre;
     overflow-x: auto;
-    max-width: 5%;
+    max-width: 100%;
 }
