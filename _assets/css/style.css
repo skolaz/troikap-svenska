@@ -49,7 +49,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ascii-art {
+    font-size: 5px; /* Ändra värdet för att minska eller öka storleken */
     white-space: pre;
     overflow-x: auto;
-    max-width: 100%;
+    max-width: 50%;
 }
