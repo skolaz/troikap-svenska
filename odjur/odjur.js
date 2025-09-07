@@ -33,4 +33,4 @@ function renderMarkdownInDetails() {
 // Om du använder Docsify, bör du lägga detta i en "hook" istället.
 // Om inte, kan du anropa funktionen i slutet av din js-fil.
 // Exempel:
-// renderMarkdownInDetails();
+ renderMarkdownInDetails();
