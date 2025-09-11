@@ -21,6 +21,26 @@ function slumpaKaraktar() {
     // Anropa funktionerna för att slumpa bakgrund och ladda ägodelar
     slumpaBakgrund();
     loadDefaultPossessions();
+
+    // Lägg till en ny div för ASCII-ansiktet om den inte finns
+    let faceElement = document.getElementById("ascii-face");
+    if (!faceElement) {
+        faceElement = document.createElement('div');
+        faceElement.id = 'ascii-face';
+        faceElement.style.whiteSpace = 'pre'; // Bevarar radbrytningar
+        // Hitta din generator-container och lägg till ansiktet
+        const generatorContainer = document.querySelector('.generator-container');
+        generatorContainer.appendChild(faceElement);
+
+        // Skapa en label för ansiktet om den inte finns
+        const label = document.createElement('label');
+        label.innerText = 'Ansikte:';
+        label.setAttribute('for', 'ascii-face');
+        generatorContainer.insertBefore(label, faceElement); // Lägger labeln före ansiktet
+    }
+    // Anropa funktionen för att generera ansiktet och uppdatera div:en
+    faceElement.innerText = generateAsciiFace();    
+
 }
 
 function slumpaBakgrund() {

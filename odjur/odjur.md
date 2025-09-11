@@ -1,14 +1,8 @@
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
 <script src="odjur/odjur.js"></script>
-<pre class="ascii-art">
-ost
-</pre>
-
 # Odjur
 <details class="accordion">
 <summary># Alzabo</summary>
-
-![Ett fotografi av en Alzabo](odjur/alzabo-final.png)
 **SKILL** 10      
 **STAMINA** 21    
 **Initiativ** 4   
@@ -71,7 +65,8 @@ Bonshaden är källan till en rolig bit av trivia bland diabolister. Även om de
 **Initiativ** 3  
 **Skydd** 2  
 **Skada** som stort odjur  
-**Mien/Humör** - 1 Tårande  
+**Mien/Humör** 
+- 1 Tårande  
 - 2 Deprimerad  
 - 3 Melankolisk  
 - 4 Dyster  
@@ -92,7 +87,8 @@ När en cyklop får initiativ kan den rita de kommande tre initiativen i ordning
 **Initiativ** 2  
 **Skydd** 1  
 **Skada** som stort odjur  
-**Mien/Humör** - 1 oberörd  
+**Mien/Humör** 
+- 1 oberörd  
 - 2 Fristående  
 - 3 Lugnt  
 - 4 Trött  
@@ -113,7 +109,8 @@ En dolm kan komprimera sig själv för att passa i vilken spricka som helst geno
 **Initiativ** 3  
 **Skydd** 0  
 **Skada** som medelmåttigt odjur  
-**Mien/Humör** - 1 Sällskaplig  
+**Mien/Humör** 
+- 1 Sällskaplig  
 - 2 Urbane  
 - 3 Upprymd  
 - 4 Passionerad  
@@ -151,8 +148,8 @@ Dvärgar är varelser av syfte; de bestämmer sig för en kurs och följer den t
 **Skydd** 4  
 **Skada** som Gigantic Beast  
 **Mien/Humör**
-- 1 Sova  
-- 2 “Playful”  
+- 1 Sover  
+- 2 *“Lekfull”*  
 - 3 Hungrig  
 - 4 Frågesport  
 - 5 Aggressiv  
@@ -251,60 +248,8 @@ Goblins är civilisationens avantgarde. I samma ögonblick som en sfär guppar t
 Onda små varelser klädda i potatissäckar stal de från en gammal mors skåp. När du ser fotspår i pajskalet är det dags att ringa Gremlin Catcher, för där det finns ett finns det hundra och under ditt hem kommer det att finnas en veritabel labyrint av warrens som sträcker sig till gudar vet var. Ingen bevisad koppling mellan gremlinernas vana att dyka upp till synes överallt och trollernas interdimensionella labyrint har gjorts men fingrarna är rejält spetsade.  
 </details>
 
----
-
 <details class="accordion">
 <summary># Harpy</summary>
-<pre class="ascii-art">
-
-
-           ......            ..........           ...:##=....           
-          ..+@@@= ..    .. ..*@@@@#%%.......    . .-@.....%:....        
-        .*@...:..@.   ...+@*...@@::.-@+=....    ..@...%.....@.          
-     ...@:.%@=@-.@...#@@@@#@=@:....@..+@@@%#+....=#..=#***...## . .     
-     ..@..@#@.:%-@ .....+#.@:.=--#:.@%+-:@@+.  ..-@..=.-.=:*..:@...     
-     .@..%@@--..-#....#@@@%#.=@@.%@@=@@.@*@@@@*@..@..:-*-.=.=#..@..     
-   ..%:..@%%+%@:.@: .:*#@@@@.....-..:*@@-%+*...*%.@..-:#.+.#.%:.:@...   
-   .=+..+:#:.*#@..%+..+=@..@:...@*:..*@@%@%@%#%..=%..#..@.%:@+@@%+%..   
-   .@..@#.=.@.@.#..@-.#@=#@@@:.%-*%.@:@@@@@*-#...@...@+.%-#=+%.-=.@-.   
-   #:.%.:#.%-*=*+.*:@.%@@##@@-@::+@+%:%@@%#@@*..@:..%:@.+:==+-*@%+-@.   
-. :#..*.@#@*#=-.@@..%*=+@-:@+....-@::*=@@.=@ :*@:..-+=.:#:=%-.@.:@.@-   
-..%:.=.:.@--@.=:*-@..%@- %%............%@#+*%@:....%%*-%+@-%.*@%:@-=@   
-..@.:%.@.+=@@@*@.%#=-+.%@.....:.................::%.%@@%@.#%@:@=%+@.@:..
-.-*.%=@.@@.==@++::#%%+@.............:.=%.-.:.-*=-%+#**@%@*.#%.#:%%#:@#..
-.#:.#.*:.@=**..%-=:**#%+....-=..--..*+#@=.-#+:@-+#+#%#.%-%.*+.@+@+-+@@..
-.@.#=:%:.@*=@.:-@--=:#@*.-%++%:....+@#+@:%+%@@***#:%@@@.=@.+=.@#%:-*@#: 
-.@.*=-#:.#*:@.+.=@.#.++@::-....-%@=@@.+*@*@:%=%==@:@-::##@.-=+@#%.*%@-%.
--%--+-#:.++.@.%:-#-.=**%:.........@..%-#.*:%*@-+@%=:-@@*+@-:*#@.%.#.=+@.
--++.=-%:.@-.++#::*+..#.@*.........@@@:#.@*-.*@.*%.:%##--=.#:@@#-%.**=%@ 
--+*=-=%..@..*.+:.*#:-#.@@.......:#=@.#:@+.@.+@.*#.-@+.%--.#:=%::%.*#+%%.
---#+:*@..%+.@.:+.%=:=*-*@::....@==@:.%@-:@=.:@.*#:-@:.@+..@%:#*.@.=@+*+:
-:+#-.==:..@:#..*-@..*.-%:@.:...:@%-@:@::%@..-@.+%-:%*.#.. -.==@:%-.@*==-
- ##--:.@..@++:  ..-.@.:@.=@......:**@::@@*.+%@.-@*.@@-:.  ..@.@@+#.@*=--
-.%#*#.%=-.*...  ...@==.*%.+@.-*:++*-@%@@@..@ #.:=%.@...   ..#.-#:::%*=-=
-.@*#=.:.@..*..     ..-#-.#+.@=##@.==:@#@.=@@%=.@.@#.      .*.-=@-.*#++=:
-.@-*.%...@:#..              .@--*@.@=@#@@@@@@*@. .        -#@..#..@*++* 
-.%-==%=..@.@:               .%@**.%@.@:@+@%@@@@...        .. .-:.*#*:#@.
-.:%=#-@...=..               :@@@@##.+:#@#%*@+@@@=.           .@.-*#-.-+ 
- .@-+.%*..%...           ...@+@@@+.*@*%%#.*.%%*@@@..      . .--:*.@..%. 
-..*+:=%.*.+-..           . @@:@@#%..+.-*#%::..+%%@%@.     ...@@...+.:% .
- ..@.+-#.:#...           .-@%#.%*@...#:-:*-#.*.-+#*@@@...........#:.#. .
-   #...@                 .#@::=@:@:.@*:+-.+=@-.+.=#%-@+@.....   .%..%   
-   :#..%                 .*#::*@-@@.:#@.:+.:@@@@...-#==%*@-..   .%.+-   
-    @..%                 ..*-=++=%#-@.#-..@..@-@@@%:..#:#+#@=....-*@.   
-   .@.:*                 . @=%#+%.% @@%@:.:@.@.-@%@@@@+.=-*-@@-.. ...   
-   .%.@.                  :@#+*%.#-....@%@#@....-@+@%@@@@@@..#=@=...    
-   .:*..                 .@.-#...   ..=##%=.    .-%#@%@@#@%+@@%:.@-..   
-           .........  ...@ +=..     ..%:-@..      =%.@.-@@+@:%+@@@+@.   
-           .**+:-@..  .+@.-+...     .:@#=*..      .:@.@..%.+.@.=%%=@.   
-           .%@#+@@@@@@*...@@@@-... .%@:-=-...........@@@:.@...@@.%...   
-         ..%-@@.+.-===++=@.=..--:#-+-+..-:@@@%%+%.      -%%:@-:#..      
-        ...@*.:=: .......@-.-@@@#-:..#%%#+--=.-*.#      ......... .     
-             .           ..:@=...*@*. ....  ....@.                      
-                         ..@+@-@-                                       
-                         ...%....                                       
-
-</pre>
 
 **SKILL** 8  
 **STAMINA** 12  
@@ -333,7 +278,8 @@ Harpies är naturliga trollkarlar, som var och en känner till Read Intrails och
 **Skydd** 1  
 **Initiativ** 3  
 **Skador** som vapen  
-**Mien/Humör** - 1 strängt  
+**Mien/Humör** 
+- 1 Strängt  
 - 2 Förvirrad  
 - 3 Extatisk  
 - 4 Uttråkad  
@@ -351,7 +297,8 @@ The Shadow Exultants utgör huvuddelen av Autarkens lägre adel, de är tjänari
 **Initiativ** 2  
 **Skydd** 1  
 **Skador** som vapen  
-**Mien/Humör** - 1 Nyfiken  
+**Mien/Humör** 
+- 1 Nyfiken  
 - 2 Försiktig  
 - 3 Berusad  
 - 4 Bråkig  
@@ -369,7 +316,8 @@ I motsats till vad bönderna säger till dig är livet för en vagabond inte lä
 **Initiativ** 1  
 **Skydd** 0  
 **Skada** som vapen eller medelmåttigt odjur  
-**Mien/Humör** - 1 Omedveten  
+**Mien/Humör** 
+- 1 Omedveten  
 - 2 Funderar  
 - 3 Distraherad  
 - 4 Hungrig  
@@ -390,7 +338,8 @@ De tar dubbel skada från Silver.
 **Initiativ** 2  
 **Skydd** 2  
 **Skada** som vapen eller medelmåttigt odjur  
-**Mien/Humör** - 1 Svår  
+**Mien/Humör** 
+- 1 Svår  
 - 2 Fientlig  
 - 3 Misstänkt  
 - 4 Intolerant  
@@ -408,7 +357,8 @@ Föreställ dig en tjock man men den här mannen är en krokodil. Ställ honom p
 **Initiativ** 7  
 **Skydd** 3  
 **Skada** som Gigantic Beast  
-**Mien/Humör** - 1 Plågad  
+**Mien/Humör** 
+- 1 Plågad  
 - 2 Vridning  
 - 3 Avundsjuk  
 - 4 Flegmatisk  
@@ -429,7 +379,8 @@ Om den dödas, kan stubben på varelsens hals stiga ner och användas som en ing
 **Initiativ** 2  
 **Skydd** 1  
 **Skada** som lätt musköt eller medelmåttigt odjur  
-**Mien/Humör** - 1 Uppmärksam  
+**Mien/Humör** 
+- 1 Uppmärksam  
 - 2 Observation  
 - 3 Vaksam  
 - 4 Ifrågasättande  
@@ -447,7 +398,8 @@ Autarkerna kunde inte lita på aristokratin för känsliga eller kontroversiella
 **Initiativ** 5  
 **Skydd** 3  
 **Skada** som stort odjur  
-**Mien/Humör** - 1 Lat  
+**Mien/Humör** 
+- 1 Lat  
 - 2 Uttråkad  
 - 3 Hungrig  
 - 4 Upptagen  
@@ -468,7 +420,8 @@ Om en manticore slår samma person två gånger i en runda har de träffats av v
 **Skydd** 3  
 **Initiativ** 3  
 **Skada** som stort odjur  
-**Mien/Humör** - 1 Vilande  
+**Mien/Humör** 
+- 1 Vilande  
 - 2 Sonderande  
 - 3 Flygig  
 - 4 Rekyl  
@@ -489,7 +442,8 @@ Alla som lyckas träffas av en notule måste testa sin lycka (eller skicklighet 
 **Initiativ** 3  
 **Skydd** 1  
 **Skada** som vapen eller stort odjur  
-**Mien/Humör** - 1 självbelåten  
+**Mien/Humör** 
+- 1 Självbelåten  
 - 2 Generös  
 - 3 Suverän  
 - 4 Sällskaplig  
@@ -506,8 +460,9 @@ Ogre är ett fenomen som är vanligt i universum. Ett barn kommer att födas med
 **STAMINA** 8  
 **Initiativ** 2  
 **Skydd** 0  
-**Skador** som klubb  
-**Mien/Humör** - 1 Flitig  
+**Skador** som klubba  
+**Mien/Humör** 
+- 1 Flitig  
 - 2 Förvirrad  
 - 3 Hemlängtan  
 - 4 Arg  
@@ -525,7 +480,8 @@ De manifesterade människorna. Enligt universums ordning, som satt igång av den
 **Skydd** 0  
 **Initiativ** 1  
 **Skada** som liten odjur  
-**Mien/Humör** - 1 Nyfiken  
+**Mien/Humör** 
+- 1 Nyfiken  
 - 2 Vaksam  
 - 3 Aggressiv  
 - 4 Hungrig  
@@ -558,52 +514,14 @@ Pergamenthäxor har 5 trollformler rullade slumpmässigt eller valda i förväg.
 
 <details class="accordion">
 <summary># Fisk</summary>
-<pre class="ascii-art">
 
-                                                                                                    
-                                                 ▍▍                                                 
-                                             ▏▏▉▂▇▄▁▊▌▏▏                                            
-                                            ▎▃▅▁▆▍▃▁▂▆▊▄▌                                           
-                                         ▍▋▅▇▂▊▃▁█▁▆▆█▆▇▇▌                                          
-                                       ▌▉▄▄▌▃▃▇▇█████████▇▅▂▉▋▎                                     
-                                    ▏▏▃▂▉▁▃█▇██████████████████▆▃▊▎                                 
-                      ▍▍▏          ▏▁▅▁▄▆██████▇▇▇▇▆▄█▅▅▆▅█████████▅▁▍                              
-                     ▎▄██▆▃▊▍      ▂█▅▆█████▆▄▄▇▅▆▅▆▅▃▄▃▄▇▅▇█▆▄▇██████▇▂▌▏                          
-                      ▍▇█▇▂▅█▆▉▎   ▄█████▅▅█▇▄▃▂▂▂▁▁▋▂▊▅▄▋▁▆▃▏▉▂▉▃▂█▆▆███▆▉▏                        
-                       ▂█▄▉▁████▅▉▍▋▄███▅▄▃▂▁▂▃▃▊▊▌▋▍▍▊▃▎▎▏▄▏ ▂▃▇▇▂▆▋▋▂▄▂▂▄▄▏                       
-                       ▏▆▇▁▉▄█▇███▇▇▆▆▃▄▂▂▉▂▉▌▇█▉▂▃▊▎▎▉▉▎▏▎▄▏ ▏▉▄▄▉▎▋▋▊▊▊▊▋▂▍                       
-                        ▍▆▆▃▅█▄▁▁▊▂▉▉▊▌▋▍▍▎▍▏▏▅█▊▊▁▅█▄▉▆▌▎▍▄▎▎▎  ▍▉▌▌▉▊▊▋▋▄▋                        
-                        ▏▂▇▁▄█▉▏▏▎▏▏▏▏▎▏▎▎▏▏▏▏▌█▂▁▃▆██▍▏▅▊ ▍▁▌▏▏▏▏▉▊▉▋▏▋▄▋                          
-                        ▁█▁▁▄██▂▋▃▉▌▋▉▏  ▏▏ ▏  ▋█▄▁▃▇█▅▋▍▂▄▊▌▋▊▊▉▊▋▊▋▊▊▌                            
-                       ▌██▉▂▃██▇▂▎ ▎▆█▇▁▎ ▏     ▎▃▅▆▅▁▎   ▎▁▅▇▇▅▄▂▆▃▊▏                              
-                       ▄██▄▉▄▄▊▏   ▍▅▆███▄▊▎     ▏    ▏▍▊▉▍  ▎▌▊▊▋▎                                 
-                      ▉██▇▃▊▍       ▎▃▅▆▇▇███▆▃▁▊▋▋▋▊▃▆▇▇█▁▅▇█▋                                     
-                      ▌▌▍▏           ▏▁▆▃▃▅█▅▁██████▇▅▇▆████▇▅                                      
-                                       ▍▁▃▁▌▏▎██████▇█████▇▆▂▎                                      
-                                             ▎▇████▅▄████▇▍                                         
-                                              ▊▍▍▎▍▋▎▉▍▍▏▁                                          
-                                              ▍▊  ▉▎▏▂  ▋▌                                          
-                                               ▉▍▎▂  ▁▍▎▁                                           
-                                               ▉▎ ▂ ▏▂▎▎▁                                           
-                                               ▁  ▌▋▎▉  ▁                                           
-                                               ▋▌ ▁▌▏▂ ▍▉                                           
-                                               ▏▁ ▁  ▊ ▁▏                                           
-                        ▏▎▍▍▋▍▌▉▁▂▂▄▂▅▅▄▄▄▅▄▆▅▅▆▂ ▂▆▅▁ ▁▅▅▅▄▄▄▅▅▄▅▂▂▁▂▁▉▋▍▌▍▎▎                      
-               ▎▌▉▉▄▄▅▆▇▆█▇██████████████████▇▆▅▄▁▄██▅▁▄▄▆██████████████████▇▇▆▄▄▄▂▊▋▎              
-                ▏▍▌▊▁▊▉▃▃▄▆▆█▇███████████████▅███████████▇██████████████▇▇▇▅▅▃▄▉▂▁▋▌▏               
-                        ▏     ▎▍▍▋▌▊▋▊▊▊▋▉▉▊▁▁▉▉▊▁▉▁▊▁▉▉▁▉▁▊▁▊▉▉▋▊▋▋▌▊▌▍▎                           
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                    
-</pre>
 **SKILL** 3  
 **STAMINA** 6  
 **Initiativ** 2  
 **Skydd** 0  
 **Skada** som medelmåttigt odjur  
-**Mien/Humör** - 1 Mewling  
+**Mien/Humör** 
+- 1 Mewling  
 - 2 Barnslig  
 - 3 Playful  
 - 4 Busig  
@@ -624,7 +542,8 @@ Om de gör en partimedlem oförmögen kommer alla Fiskar som är kapabla att sti
 **Initiativ** 2  
 **Skydd** 0  
 **Skada** som medelmåttigt odjur  
-**Mien/Humör** - 1 Hemskt  
+**Mien/Humör** 
+- 1 Hemskt  
 - 2 Misstänkt  
 - 3 Overkligt  
 - 4 Nyfiken  
@@ -642,7 +561,8 @@ Det finns de där häxorna som tar på sig huden av en gris och går utomlands b
 **Initiativ** 3  
 **Skydd** 3  
 **Skada** som stort odjur  
-**Mien/Humör** - 1 Kramper  
+**Mien/Humör** 
+- 1 Kramper  
 - 2 Expandera  
 - 3 Indragning  
 - 4 Svallande  
@@ -660,7 +580,8 @@ En stjärnvarelse som sjömän är vana vid att ta bort från sina gyllene skepp
 **Initiativ** 2  
 **Skydd** 0  
 **Skada** som Medium Beast  
-**Mien/Humör** - 1 Otroligt  
+**Mien/Humör** 
+- 1 Otroligt  
 - 2 Hagridden  
 - 3 Indragen  
 - 4 Anspråkslös  
@@ -681,7 +602,8 @@ Sovande offer förlorar 1d6 permanent STAMINA dagligen om de inte återställs p
 **Initiativ** 2  
 **Skydd** 0  
 **Skada** som liten odjur  
-**Mien/Humör** - 1 Blyg  
+**Mien/Humör** 
+- 1 Blyg  
 - 2 Vänlig  
 - 3 Sympatisk  
 - 4 Rädsla  
@@ -702,7 +624,8 @@ Sovande eller intet ont anande mål måste testa sin lycka (eller skicklighet f�
 **Initiativ** 2  
 **Skydd** 1  
 **Skador** som vapen  
-**Mien/Humör** - 1 Frånvarande  
+**Mien/Humör** 
+- 1 Frånvarande  
 - 2 Distraherad  
 - 3 Entusiastisk  
 - 4 Maudlin  
@@ -720,7 +643,8 @@ Byggd på det första imperiets tid, på uppdrag av de andra herrarnas vilja att
 **Initiativ** 2  
 **Skydd** 0  
 **Skada** som stort odjur  
-**Mien/Humör** - 1 Playful  
+**Mien/Humör** 
+- 1 Lekfull  
 - 2 Stalking  
 - 3 Hungrig  
 - 4 Trött  
@@ -756,46 +680,14 @@ Tower Wizard har tillgång till stöt eller Ember och 4 andra trollformler rulla
 
 <details class="accordion">
 <summary># Troll</summary>
-<pre class="ascii-art">
-
-
-                       ][*]<                      
-                    @ }+  +}:@                    
-                 + ] <<    <] % :                 
-                    [#  [}  %}                    
-               [# [  *]    ]>  * -@:              
-          *[  =  %  % )=  -) @  [  <  ]+          
-        }     [>  @    :--: -::#  <}     }        
-       =      <%> %=  #}  %}  :# [%<      =       
-      %%     -  }- >+        )<  #  :     #%      
-     [           : :    ::    -=            }     
-     +  ::          =+%    #*-           -  >     
-   +        <*  :      [%@}         *>      + -   
-   }       # % [-=      -:       -# # }       )   
-  #      -[  }                      }  @ %     #  
- }:**    -}  %      [        +      }  <>    *>]} 
- <%}  -   >   #                    *   <   <  <]> 
- - <  =  @    [=@-      <)      :@:+    @  -  ) - 
-   @*[[*  ]   <==-  ]%@@%%@@#)  =--]   )  +[[*@   
-   -     * } }<    }:]#]]]]}):}    [%=} =     =   
-      - %< <#  +} -   }    }   = }=  }] [}        
-    )} - %  #:   )*            =%   =<  # + }<    
-      *])* -       )<#}    #}=<       < +)*+      
-            @    <  >   +>   -  }    %            
-            ][}}<  %          @  *}%%@            
-             @     +          -     #             
-          +-+  :    #        #    [  -=+          
-          #<:    )              )    =}%          
-
-
-</pre>
 
 **SKILL** 7  
 **STAMINA** 12  
 **Initiativ** 1  
 **Skydd** 2  
 **Skador** som vapen  
-**Mien/Humör** - 1 oförskämd  
+**Mien/Humör**
+- 1 oförskämd  
 - 2 Standoffish  
 - 3 Häftig  
 - 4 Respektlöst  
@@ -818,7 +710,8 @@ Troll återskapar 1 STAMINA varje gång de håller Initiativet. De kommer att å
 **Initiativ** 2  
 **Skydd** 2  
 **Skada** som supervapen  
-**Mien/Humör** - 1 Frustrerad  
+**Mien/Humör** 
+- 1 Frustrerad  
 - 2 Rädd  
 - 3 Nyfiken  
 - 4 Fascinerad  
@@ -837,7 +730,7 @@ De miljoner sfärerna har inte räknats, det är bara underförstått att det fi
 **Skydd** 0  
 **Skada** som medelmåttigt odjur  
 **Mien/Humör**  
- - 1 Playful     
+ - 1 Lekfull     
  - 2 Stalking  
  - 3 Hungrig  
  - 4 Trött  
