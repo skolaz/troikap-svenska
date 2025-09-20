@@ -1,5 +1,5 @@
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
-<script src="orakel/orakel.js"></script>
+<script src="assets/orakel.js"></script>
 <div class="oracle-container">
     <h4>Fråga Oraclet</h4>
     <p>Hur troligt är det att händelsen inträffar?</p>

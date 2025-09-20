@@ -1,5 +1,5 @@
 # Enkelt Google Translate översatt Troika! RPG
-![Troika](troikaframsida.png)
+![Troika](assets/troikaframsida.png)
 Men först några villkor först:
 
 # Terms

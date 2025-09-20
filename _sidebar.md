@@ -7,15 +7,22 @@
 - [Trollformler](trollformler.md)
 - [Fiender](fiender.md)
 ---  
-- [Bästiarier](odjur/odjur.md)
+- [Odjur](odjur.md)
 - [Tabeller](tabeller.md)
 - [Husregler](husregler.md)
 - [Cheat Sheet](cheatsheet.md)
 ---
  Generatorer:
 - [Enkelt k-blad](karaktarsgenerator.md)
-- [Orakel](orakel/orakel.md) 
-- [NPC](npc/npcgen.md)
+- [Bättre k-blad](https://skolaz.github.io/trchsh/)
+- [Orakel](orakel.md) 
+- [NPC](npcgen.md)
+- [Initiative](initiative.md)
+---
+ Maze Rats:
+- [Maze Rats karaktärsblad](mazeRatsSheet.md)
+- [Magic](mazeMagic.md)
+- [Monster](mazeMonster.md)
 ---
  Andra hemsidor:
 - [Karaktärsblad](http://candy-thistle.surge.sh/)

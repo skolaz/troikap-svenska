@@ -1,6 +1,5 @@
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
-<script src="npc/npcgen.js"></script>
-<hr>
+<script src="assets/npcgen.js"></script>
 <h2>Slumpa en NPC</h2>
 <p>
     <button onclick="slumpaNPC()">Skapa NPC!</button>

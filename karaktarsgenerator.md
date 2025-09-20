@@ -4,7 +4,7 @@ Här kan du skapa din karaktär genom att slumpa fram dina initiala värden. Ta 
 > Inget sparas här.
 
 <script src="//cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script src="character-generator.js"></script>
+<script src="assets/character-generator.js"></script>
 <script src="ascii-ansikte.js"></script>
 <div class="generator-container">
     <label for="name">Namn:</label>
